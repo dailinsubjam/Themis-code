@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/hotstuff-client.dir/hotstuff_client.cpp.o  -o hotstuff-client  ../libhotstuff.a ../salticidae/libsalticidae.a -luv -lssl -lpthread ../secp256k1/.libs/libsecp256k1.a -lcrypto -lpthread 

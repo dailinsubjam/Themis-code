@@ -1,0 +1,1 @@
+cmd='/home/ubuntu/Ted-original/libhotstuff/secp256k1/autogen.sh;COMMAND;/home/ubuntu/Ted-original/libhotstuff/secp256k1/configure;--disable-shared;--with-pic;--with-bignum=no;--enable-module-recovery'

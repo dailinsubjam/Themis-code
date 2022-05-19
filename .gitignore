@@ -1,0 +1,8 @@
+Terraform/.Terraform
+Terraform/geo-distributed/.terraform
+Terraform/geo-distributed/.terraform.lock.hcl
+Terraform/geo-distributed/terraform.tfstate
+Terraform/geo-distributed/terraform.tfstate.backup
+Terraform/one-region-ohio/terraform.tfstate
+Terraform/one-region-ohio/terraform.tfstate.backup
+Terraform/.terraform.lock.hcl

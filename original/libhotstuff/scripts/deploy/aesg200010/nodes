@@ -1,0 +1,93 @@
+[nodes_setup]
+18.117.148.58
+18.188.17.142
+18.191.85.139
+18.221.13.34
+3.112.224.96
+3.120.147.128
+3.142.114.174
+3.144.101.190
+3.145.101.76
+3.145.105.165
+3.145.158.48
+3.36.103.56
+52.14.139.130
+52.79.253.61
+54.193.29.119
+54.215.140.88
+54.93.131.236
+54.95.218.99
+
+[nodes]
+replica0 ansible_host=18.188.17.142 host_idx=0 extra_conf=hotstuff.gen-sec0.conf
+replica1 ansible_host=3.142.114.174 host_idx=0 extra_conf=hotstuff.gen-sec1.conf
+replica2 ansible_host=52.79.253.61 host_idx=0 extra_conf=hotstuff.gen-sec2.conf
+replica3 ansible_host=3.36.103.56 host_idx=0 extra_conf=hotstuff.gen-sec3.conf
+replica4 ansible_host=54.93.131.236 host_idx=0 extra_conf=hotstuff.gen-sec4.conf
+replica5 ansible_host=3.120.147.128 host_idx=0 extra_conf=hotstuff.gen-sec5.conf
+replica6 ansible_host=54.215.140.88 host_idx=0 extra_conf=hotstuff.gen-sec6.conf
+replica7 ansible_host=54.193.29.119 host_idx=0 extra_conf=hotstuff.gen-sec7.conf
+replica8 ansible_host=3.112.224.96 host_idx=0 extra_conf=hotstuff.gen-sec8.conf
+replica9 ansible_host=54.95.218.99 host_idx=0 extra_conf=hotstuff.gen-sec9.conf
+
+[clients]
+client0 ansible_host=3.145.158.48 host_idx=1 cid=0
+client1 ansible_host=3.145.158.48 host_idx=2 cid=1
+client2 ansible_host=3.145.158.48 host_idx=3 cid=2
+client3 ansible_host=3.145.158.48 host_idx=4 cid=3
+client4 ansible_host=3.145.158.48 host_idx=5 cid=4
+client5 ansible_host=3.145.158.48 host_idx=6 cid=5
+client6 ansible_host=3.145.158.48 host_idx=7 cid=6
+client7 ansible_host=3.145.158.48 host_idx=8 cid=7
+client8 ansible_host=52.14.139.130 host_idx=9 cid=8
+client9 ansible_host=52.14.139.130 host_idx=10 cid=9
+client10 ansible_host=52.14.139.130 host_idx=11 cid=10
+client11 ansible_host=52.14.139.130 host_idx=12 cid=11
+client12 ansible_host=52.14.139.130 host_idx=13 cid=12
+client13 ansible_host=52.14.139.130 host_idx=14 cid=13
+client14 ansible_host=52.14.139.130 host_idx=15 cid=14
+client15 ansible_host=52.14.139.130 host_idx=16 cid=15
+client16 ansible_host=18.191.85.139 host_idx=17 cid=16
+client17 ansible_host=18.191.85.139 host_idx=18 cid=17
+client18 ansible_host=18.191.85.139 host_idx=19 cid=18
+client19 ansible_host=18.191.85.139 host_idx=20 cid=19
+client20 ansible_host=18.191.85.139 host_idx=21 cid=20
+client21 ansible_host=18.191.85.139 host_idx=22 cid=21
+client22 ansible_host=18.191.85.139 host_idx=23 cid=22
+client23 ansible_host=18.191.85.139 host_idx=24 cid=23
+client24 ansible_host=3.145.101.76 host_idx=25 cid=24
+client25 ansible_host=3.145.101.76 host_idx=26 cid=25
+client26 ansible_host=3.145.101.76 host_idx=27 cid=26
+client27 ansible_host=3.145.101.76 host_idx=28 cid=27
+client28 ansible_host=3.145.101.76 host_idx=29 cid=28
+client29 ansible_host=3.145.101.76 host_idx=30 cid=29
+client30 ansible_host=3.145.101.76 host_idx=31 cid=30
+client31 ansible_host=3.145.101.76 host_idx=32 cid=31
+client32 ansible_host=18.117.148.58 host_idx=33 cid=32
+client33 ansible_host=18.117.148.58 host_idx=34 cid=33
+client34 ansible_host=18.117.148.58 host_idx=35 cid=34
+client35 ansible_host=18.117.148.58 host_idx=36 cid=35
+client36 ansible_host=18.117.148.58 host_idx=37 cid=36
+client37 ansible_host=18.117.148.58 host_idx=38 cid=37
+client38 ansible_host=18.117.148.58 host_idx=39 cid=38
+client39 ansible_host=18.117.148.58 host_idx=40 cid=39
+client40 ansible_host=3.144.101.190 host_idx=41 cid=40
+client41 ansible_host=3.144.101.190 host_idx=42 cid=41
+client42 ansible_host=3.144.101.190 host_idx=43 cid=42
+client43 ansible_host=3.144.101.190 host_idx=44 cid=43
+client44 ansible_host=3.144.101.190 host_idx=45 cid=44
+client45 ansible_host=3.144.101.190 host_idx=46 cid=45
+client46 ansible_host=3.144.101.190 host_idx=47 cid=46
+client47 ansible_host=3.144.101.190 host_idx=48 cid=47
+client48 ansible_host=18.221.13.34 host_idx=49 cid=48
+client49 ansible_host=18.221.13.34 host_idx=50 cid=49
+client50 ansible_host=18.221.13.34 host_idx=51 cid=50
+client51 ansible_host=18.221.13.34 host_idx=52 cid=51
+client52 ansible_host=18.221.13.34 host_idx=53 cid=52
+client53 ansible_host=18.221.13.34 host_idx=54 cid=53
+client54 ansible_host=18.221.13.34 host_idx=55 cid=54
+client55 ansible_host=18.221.13.34 host_idx=56 cid=55
+client56 ansible_host=3.145.105.165 host_idx=57 cid=56
+client57 ansible_host=3.145.105.165 host_idx=58 cid=57
+client58 ansible_host=3.145.105.165 host_idx=59 cid=58
+client59 ansible_host=3.145.105.165 host_idx=60 cid=59

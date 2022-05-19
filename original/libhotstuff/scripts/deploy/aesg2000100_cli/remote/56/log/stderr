@@ -1,0 +1,1436 @@
+2022-01-13 02:53:41.830094 [net info] starting all threads...
+2022-01-13 02:53:41.830220 [net warn] ignoring option name in conf file: block-size
+2022-01-13 02:53:41.830229 [net warn] ignoring option name in conf file: nworker
+2022-01-13 02:53:41.830233 [net warn] ignoring option name in conf file: repnworker
+2022-01-13 02:53:41.830237 [net warn] ignoring option name in conf file: clinworker
+2022-01-13 02:53:41.830241 [net warn] ignoring option name in conf file: repburst
+2022-01-13 02:53:41.830245 [net warn] ignoring option name in conf file: cliburst
+2022-01-13 02:53:41.830249 [net warn] ignoring option name in conf file: pace-maker
+2022-01-13 02:53:41.830306 [net info] loaded configuration from hotstuff.conf
+2022-01-13 02:53:41.830552 [hotstuff info] nfaulty = 33
+2022-01-13 02:53:41.830773 [net info] created <Conn fd=11 addr=<NetAddr 18.188.17.142:20000> mode=active>
+2022-01-13 02:53:41.830998 [net info] created <Conn fd=19 addr=<NetAddr 3.142.114.174:20000> mode=active>
+2022-01-13 02:53:41.831031 [net info] connected to remote <Conn fd=11 addr=<NetAddr 18.188.17.142:20000> mode=active>
+2022-01-13 02:53:41.831248 [net info] created <Conn fd=21 addr=<NetAddr 52.14.183.251:20000> mode=active>
+2022-01-13 02:53:41.831442 [net info] created <Conn fd=23 addr=<NetAddr 3.134.81.138:20000> mode=active>
+2022-01-13 02:53:41.831666 [net info] created <Conn fd=25 addr=<NetAddr 18.223.44.187:20000> mode=active>
+2022-01-13 02:53:41.831684 [net info] connected to remote <Conn fd=19 addr=<NetAddr 3.142.114.174:20000> mode=active>
+2022-01-13 02:53:41.831869 [net info] created <Conn fd=27 addr=<NetAddr 18.190.158.55:20000> mode=active>
+2022-01-13 02:53:41.832053 [net info] created <Conn fd=29 addr=<NetAddr 18.191.128.170:20000> mode=active>
+2022-01-13 02:53:41.832301 [net info] created <Conn fd=31 addr=<NetAddr 18.191.192.232:20000> mode=active>
+2022-01-13 02:53:41.832322 [net info] connected to remote <Conn fd=29 addr=<NetAddr 18.191.128.170:20000> mode=active>
+2022-01-13 02:53:41.832330 [net info] connected to remote <Conn fd=21 addr=<NetAddr 52.14.183.251:20000> mode=active>
+2022-01-13 02:53:41.832521 [net info] created <Conn fd=33 addr=<NetAddr 3.145.111.68:20000> mode=active>
+2022-01-13 02:53:41.832739 [net info] created <Conn fd=35 addr=<NetAddr 18.221.98.180:20000> mode=active>
+2022-01-13 02:53:41.832934 [net info] created <Conn fd=37 addr=<NetAddr 3.144.111.182:20000> mode=active>
+2022-01-13 02:53:41.832949 [net info] connected to remote <Conn fd=31 addr=<NetAddr 18.191.192.232:20000> mode=active>
+2022-01-13 02:53:41.832957 [net info] connected to remote <Conn fd=23 addr=<NetAddr 3.134.81.138:20000> mode=active>
+2022-01-13 02:53:41.832963 [net info] connected to remote <Conn fd=25 addr=<NetAddr 18.223.44.187:20000> mode=active>
+2022-01-13 02:53:41.832970 [net info] connected to remote <Conn fd=33 addr=<NetAddr 3.145.111.68:20000> mode=active>
+2022-01-13 02:53:41.833146 [net info] created <Conn fd=39 addr=<NetAddr 3.143.24.68:20000> mode=active>
+2022-01-13 02:53:41.833466 [net info] created <Conn fd=41 addr=<NetAddr 18.221.98.151:20000> mode=active>
+2022-01-13 02:53:41.833484 [net info] connected to remote <Conn fd=35 addr=<NetAddr 18.221.98.180:20000> mode=active>
+2022-01-13 02:53:41.833492 [net info] connected to remote <Conn fd=27 addr=<NetAddr 18.190.158.55:20000> mode=active>
+2022-01-13 02:53:41.833712 [net info] created <Conn fd=43 addr=<NetAddr 18.218.29.190:20000> mode=active>
+2022-01-13 02:53:41.833931 [net info] created <Conn fd=45 addr=<NetAddr 18.222.167.232:20000> mode=active>
+2022-01-13 02:53:41.833946 [net info] connected to remote <Conn fd=37 addr=<NetAddr 3.144.111.182:20000> mode=active>
+2022-01-13 02:53:41.833954 [net info] connected to remote <Conn fd=39 addr=<NetAddr 3.143.24.68:20000> mode=active>
+2022-01-13 02:53:41.834135 [net info] created <Conn fd=47 addr=<NetAddr 18.117.91.31:20000> mode=active>
+2022-01-13 02:53:41.834335 [net info] created <Conn fd=49 addr=<NetAddr 3.144.254.119:20000> mode=active>
+2022-01-13 02:53:41.834352 [net info] connected to remote <Conn fd=41 addr=<NetAddr 18.221.98.151:20000> mode=active>
+2022-01-13 02:53:41.834366 [net info] connected to remote <Conn fd=43 addr=<NetAddr 18.218.29.190:20000> mode=active>
+2022-01-13 02:53:41.834548 [net info] created <Conn fd=51 addr=<NetAddr 3.14.254.163:20000> mode=active>
+2022-01-13 02:53:41.834758 [net info] created <Conn fd=53 addr=<NetAddr 3.129.194.93:20000> mode=active>
+2022-01-13 02:53:41.834776 [net info] connected to remote <Conn fd=45 addr=<NetAddr 18.222.167.232:20000> mode=active>
+2022-01-13 02:53:41.834783 [net info] connected to remote <Conn fd=47 addr=<NetAddr 18.117.91.31:20000> mode=active>
+2022-01-13 02:53:41.834972 [net info] created <Conn fd=55 addr=<NetAddr 3.129.23.168:20000> mode=active>
+2022-01-13 02:53:41.835169 [net info] created <Conn fd=57 addr=<NetAddr 52.79.253.61:20000> mode=active>
+2022-01-13 02:53:41.835183 [net info] connected to remote <Conn fd=49 addr=<NetAddr 3.144.254.119:20000> mode=active>
+2022-01-13 02:53:41.835190 [net info] connected to remote <Conn fd=51 addr=<NetAddr 3.14.254.163:20000> mode=active>
+2022-01-13 02:53:41.835380 [net info] created <Conn fd=59 addr=<NetAddr 3.36.103.56:20000> mode=active>
+2022-01-13 02:53:41.835576 [net info] created <Conn fd=61 addr=<NetAddr 13.125.151.66:20000> mode=active>
+2022-01-13 02:53:41.835590 [net info] connected to remote <Conn fd=53 addr=<NetAddr 3.129.194.93:20000> mode=active>
+2022-01-13 02:53:41.835597 [net info] connected to remote <Conn fd=55 addr=<NetAddr 3.129.23.168:20000> mode=active>
+2022-01-13 02:53:41.887753 [net info] created <Conn fd=63 addr=<NetAddr 3.38.179.145:20000> mode=active>
+2022-01-13 02:53:41.887986 [net info] created <Conn fd=65 addr=<NetAddr 13.124.45.244:20000> mode=active>
+2022-01-13 02:53:41.888192 [net info] created <Conn fd=67 addr=<NetAddr 3.36.122.29:20000> mode=active>
+2022-01-13 02:53:41.888411 [net info] created <Conn fd=69 addr=<NetAddr 15.165.46.43:20000> mode=active>
+2022-01-13 02:53:41.888618 [net info] created <Conn fd=71 addr=<NetAddr 3.36.107.210:20000> mode=active>
+2022-01-13 02:53:41.888826 [net info] created <Conn fd=73 addr=<NetAddr 3.38.221.225:20000> mode=active>
+2022-01-13 02:53:41.889042 [net info] created <Conn fd=75 addr=<NetAddr 3.38.221.80:20000> mode=active>
+2022-01-13 02:53:41.889249 [net info] created <Conn fd=77 addr=<NetAddr 3.34.50.197:20000> mode=active>
+2022-01-13 02:53:41.889461 [net info] created <Conn fd=79 addr=<NetAddr 13.124.221.51:20000> mode=active>
+2022-01-13 02:53:41.889667 [net info] created <Conn fd=81 addr=<NetAddr 13.125.231.214:20000> mode=active>
+2022-01-13 02:53:41.889873 [net info] created <Conn fd=83 addr=<NetAddr 52.79.48.124:20000> mode=active>
+2022-01-13 02:53:41.890078 [net info] created <Conn fd=85 addr=<NetAddr 54.180.139.105:20000> mode=active>
+2022-01-13 02:53:41.890285 [net info] created <Conn fd=87 addr=<NetAddr 15.165.18.1:20000> mode=active>
+2022-01-13 02:53:41.890492 [net info] created <Conn fd=89 addr=<NetAddr 3.34.252.227:20000> mode=active>
+2022-01-13 02:53:41.890704 [net info] created <Conn fd=91 addr=<NetAddr 13.124.101.173:20000> mode=active>
+2022-01-13 02:53:41.890908 [net info] created <Conn fd=93 addr=<NetAddr 3.35.138.94:20000> mode=active>
+2022-01-13 02:53:41.891110 [net info] created <Conn fd=95 addr=<NetAddr 3.34.49.77:20000> mode=active>
+2022-01-13 02:53:41.891304 [net info] created <Conn fd=97 addr=<NetAddr 54.93.131.236:20000> mode=active>
+2022-01-13 02:53:41.891507 [net info] created <Conn fd=99 addr=<NetAddr 3.120.147.128:20000> mode=active>
+2022-01-13 02:53:41.891734 [net info] created <Conn fd=101 addr=<NetAddr 3.66.16.61:20000> mode=active>
+2022-01-13 02:53:41.891943 [net info] created <Conn fd=103 addr=<NetAddr 18.159.51.132:20000> mode=active>
+2022-01-13 02:53:41.892149 [net info] created <Conn fd=105 addr=<NetAddr 3.64.193.205:20000> mode=active>
+2022-01-13 02:53:41.892355 [net info] created <Conn fd=107 addr=<NetAddr 3.66.162.145:20000> mode=active>
+2022-01-13 02:53:41.892555 [net info] created <Conn fd=109 addr=<NetAddr 52.57.107.154:20000> mode=active>
+2022-01-13 02:53:41.892756 [net info] created <Conn fd=111 addr=<NetAddr 54.93.122.52:20000> mode=active>
+2022-01-13 02:53:41.892967 [net info] created <Conn fd=113 addr=<NetAddr 3.71.42.246:20000> mode=active>
+2022-01-13 02:53:41.893169 [net info] created <Conn fd=115 addr=<NetAddr 18.185.20.37:20000> mode=active>
+2022-01-13 02:53:41.893372 [net info] created <Conn fd=117 addr=<NetAddr 52.28.148.92:20000> mode=active>
+2022-01-13 02:53:41.893576 [net info] created <Conn fd=119 addr=<NetAddr 18.195.144.57:20000> mode=active>
+2022-01-13 02:53:41.893782 [net info] created <Conn fd=121 addr=<NetAddr 35.158.210.18:20000> mode=active>
+2022-01-13 02:53:41.893984 [net info] created <Conn fd=123 addr=<NetAddr 18.184.136.6:20000> mode=active>
+2022-01-13 02:53:41.894186 [net info] created <Conn fd=125 addr=<NetAddr 3.65.198.51:20000> mode=active>
+2022-01-13 02:53:41.923849 [net info] created <Conn fd=127 addr=<NetAddr 18.197.55.158:20000> mode=active>
+2022-01-13 02:53:41.924137 [net info] created <Conn fd=129 addr=<NetAddr 18.159.207.52:20000> mode=active>
+2022-01-13 02:53:41.924397 [net info] created <Conn fd=131 addr=<NetAddr 3.71.16.83:20000> mode=active>
+2022-01-13 02:53:41.924655 [net info] created <Conn fd=133 addr=<NetAddr 3.120.176.118:20000> mode=active>
+2022-01-13 02:53:41.924911 [net info] created <Conn fd=135 addr=<NetAddr 18.159.36.0:20000> mode=active>
+2022-01-13 02:53:41.925165 [net info] created <Conn fd=137 addr=<NetAddr 54.215.140.88:20000> mode=active>
+2022-01-13 02:53:41.925424 [net info] created <Conn fd=139 addr=<NetAddr 54.193.29.119:20000> mode=active>
+2022-01-13 02:53:41.925680 [net info] created <Conn fd=141 addr=<NetAddr 54.183.153.111:20000> mode=active>
+2022-01-13 02:53:41.926021 [net info] created <Conn fd=143 addr=<NetAddr 54.176.188.94:20000> mode=active>
+2022-01-13 02:53:41.926293 [net info] created <Conn fd=145 addr=<NetAddr 54.183.136.131:20000> mode=active>
+2022-01-13 02:53:41.926550 [net info] created <Conn fd=147 addr=<NetAddr 54.193.87.26:20000> mode=active>
+2022-01-13 02:53:41.926891 [net info] created <Conn fd=149 addr=<NetAddr 3.101.123.37:20000> mode=active>
+2022-01-13 02:53:41.927167 [net info] created <Conn fd=151 addr=<NetAddr 54.183.149.199:20000> mode=active>
+2022-01-13 02:53:41.927426 [net info] created <Conn fd=153 addr=<NetAddr 13.57.235.71:20000> mode=active>
+2022-01-13 02:53:41.927766 [net info] created <Conn fd=155 addr=<NetAddr 13.56.207.229:20000> mode=active>
+2022-01-13 02:53:41.928036 [net info] created <Conn fd=157 addr=<NetAddr 3.101.27.106:20000> mode=active>
+2022-01-13 02:53:41.928290 [net info] created <Conn fd=159 addr=<NetAddr 204.236.172.241:20000> mode=active>
+2022-01-13 02:53:41.928541 [net info] created <Conn fd=161 addr=<NetAddr 13.57.32.106:20000> mode=active>
+2022-01-13 02:53:41.928792 [net info] created <Conn fd=163 addr=<NetAddr 52.53.157.187:20000> mode=active>
+2022-01-13 02:53:41.929047 [net info] created <Conn fd=165 addr=<NetAddr 3.101.54.141:20000> mode=active>
+2022-01-13 02:53:41.929301 [net info] created <Conn fd=167 addr=<NetAddr 13.52.177.242:20000> mode=active>
+2022-01-13 02:53:41.929558 [net info] created <Conn fd=169 addr=<NetAddr 18.144.88.179:20000> mode=active>
+2022-01-13 02:53:41.929813 [net info] created <Conn fd=171 addr=<NetAddr 54.219.233.161:20000> mode=active>
+2022-01-13 02:53:41.930077 [net info] created <Conn fd=173 addr=<NetAddr 54.183.207.69:20000> mode=active>
+2022-01-13 02:53:41.930343 [net info] created <Conn fd=175 addr=<NetAddr 54.151.91.137:20000> mode=active>
+2022-01-13 02:53:41.930600 [net info] created <Conn fd=177 addr=<NetAddr 3.112.224.96:20000> mode=active>
+2022-01-13 02:53:41.930857 [net info] created <Conn fd=179 addr=<NetAddr 54.95.218.99:20000> mode=active>
+2022-01-13 02:53:41.931144 [net info] created <Conn fd=181 addr=<NetAddr 13.231.242.218:20000> mode=active>
+2022-01-13 02:53:41.931408 [net info] created <Conn fd=183 addr=<NetAddr 52.194.219.98:20000> mode=active>
+2022-01-13 02:53:41.931682 [net info] created <Conn fd=185 addr=<NetAddr 52.197.161.220:20000> mode=active>
+2022-01-13 02:53:41.931945 [net info] created <Conn fd=187 addr=<NetAddr 35.72.8.142:20000> mode=active>
+2022-01-13 02:53:41.932213 [net info] created <Conn fd=189 addr=<NetAddr 54.249.85.90:20000> mode=active>
+2022-01-13 02:53:41.932482 [net info] created <Conn fd=191 addr=<NetAddr 52.194.212.92:20000> mode=active>
+2022-01-13 02:53:41.932740 [net info] created <Conn fd=193 addr=<NetAddr 13.231.153.153:20000> mode=active>
+2022-01-13 02:53:41.932998 [net info] created <Conn fd=195 addr=<NetAddr 54.250.25.152:20000> mode=active>
+2022-01-13 02:53:41.933286 [net info] created <Conn fd=197 addr=<NetAddr 54.95.67.132:20000> mode=active>
+2022-01-13 02:53:41.933545 [net info] created <Conn fd=199 addr=<NetAddr 18.181.95.100:20000> mode=active>
+2022-01-13 02:53:41.933784 [net info] created <Conn fd=201 addr=<NetAddr 35.72.183.56:20000> mode=active>
+2022-01-13 02:53:41.934003 [net info] created <Conn fd=203 addr=<NetAddr 18.181.236.24:20000> mode=active>
+2022-01-13 02:53:41.934316 [net info] created <Conn fd=205 addr=<NetAddr 35.77.74.160:20000> mode=active>
+2022-01-13 02:53:41.934664 [net info] created <Conn fd=207 addr=<NetAddr 18.176.178.140:20000> mode=active>
+2022-01-13 02:53:41.934902 [net info] created <Conn fd=209 addr=<NetAddr 35.74.248.38:20000> mode=active>
+2022-01-13 02:53:41.935120 [net info] created <Conn fd=211 addr=<NetAddr 18.183.106.97:20000> mode=active>
+2022-01-13 02:53:41.935412 [net info] created <Conn fd=213 addr=<NetAddr 35.72.185.36:20000> mode=active>
+2022-01-13 02:53:41.935715 [net info] created <Conn fd=215 addr=<NetAddr 35.74.79.162:20000> mode=active>
+2022-01-13 02:53:41.974724 [net info] connected to remote <Conn fd=137 addr=<NetAddr 54.215.140.88:20000> mode=active>
+2022-01-13 02:53:41.976415 [net info] connected to remote <Conn fd=141 addr=<NetAddr 54.183.153.111:20000> mode=active>
+2022-01-13 02:53:41.976663 [net info] connected to remote <Conn fd=149 addr=<NetAddr 3.101.123.37:20000> mode=active>
+2022-01-13 02:53:41.976992 [net info] connected to remote <Conn fd=153 addr=<NetAddr 13.57.235.71:20000> mode=active>
+2022-01-13 02:53:41.977347 [net info] connected to remote <Conn fd=139 addr=<NetAddr 54.193.29.119:20000> mode=active>
+2022-01-13 02:53:41.977363 [net info] connected to remote <Conn fd=147 addr=<NetAddr 54.193.87.26:20000> mode=active>
+2022-01-13 02:53:41.977949 [net info] connected to remote <Conn fd=143 addr=<NetAddr 54.176.188.94:20000> mode=active>
+2022-01-13 02:53:41.978513 [net info] connected to remote <Conn fd=155 addr=<NetAddr 13.56.207.229:20000> mode=active>
+2022-01-13 02:53:41.978767 [net info] connected to remote <Conn fd=145 addr=<NetAddr 54.183.136.131:20000> mode=active>
+2022-01-13 02:53:41.979006 [net info] connected to remote <Conn fd=157 addr=<NetAddr 3.101.27.106:20000> mode=active>
+2022-01-13 02:53:41.979017 [net info] connected to remote <Conn fd=151 addr=<NetAddr 54.183.149.199:20000> mode=active>
+2022-01-13 02:53:41.979055 [net info] connected to remote <Conn fd=163 addr=<NetAddr 52.53.157.187:20000> mode=active>
+2022-01-13 02:53:41.979064 [net info] connected to remote <Conn fd=159 addr=<NetAddr 204.236.172.241:20000> mode=active>
+2022-01-13 02:53:41.979472 [net info] connected to remote <Conn fd=165 addr=<NetAddr 3.101.54.141:20000> mode=active>
+2022-01-13 02:53:41.979836 [net info] connected to remote <Conn fd=169 addr=<NetAddr 18.144.88.179:20000> mode=active>
+2022-01-13 02:53:41.979847 [net info] connected to remote <Conn fd=161 addr=<NetAddr 13.57.32.106:20000> mode=active>
+2022-01-13 02:53:41.980441 [net info] connected to remote <Conn fd=167 addr=<NetAddr 13.52.177.242:20000> mode=active>
+2022-01-13 02:53:41.981054 [net info] connected to remote <Conn fd=171 addr=<NetAddr 54.219.233.161:20000> mode=active>
+2022-01-13 02:53:41.981304 [net info] connected to remote <Conn fd=173 addr=<NetAddr 54.183.207.69:20000> mode=active>
+2022-01-13 02:53:41.981607 [net info] connected to remote <Conn fd=175 addr=<NetAddr 54.151.91.137:20000> mode=active>
+2022-01-13 02:53:41.990939 [net info] connected to remote <Conn fd=97 addr=<NetAddr 54.93.131.236:20000> mode=active>
+2022-01-13 02:53:41.991166 [net info] connected to remote <Conn fd=99 addr=<NetAddr 3.120.147.128:20000> mode=active>
+2022-01-13 02:53:41.991177 [net info] connected to remote <Conn fd=101 addr=<NetAddr 3.66.16.61:20000> mode=active>
+2022-01-13 02:53:41.991668 [net info] connected to remote <Conn fd=103 addr=<NetAddr 18.159.51.132:20000> mode=active>
+2022-01-13 02:53:41.991908 [net info] connected to remote <Conn fd=105 addr=<NetAddr 3.64.193.205:20000> mode=active>
+2022-01-13 02:53:41.992130 [net info] connected to remote <Conn fd=109 addr=<NetAddr 52.57.107.154:20000> mode=active>
+2022-01-13 02:53:41.992383 [net info] connected to remote <Conn fd=111 addr=<NetAddr 54.93.122.52:20000> mode=active>
+2022-01-13 02:53:41.992704 [net info] connected to remote <Conn fd=107 addr=<NetAddr 3.66.162.145:20000> mode=active>
+2022-01-13 02:53:41.992715 [net info] connected to remote <Conn fd=113 addr=<NetAddr 3.71.42.246:20000> mode=active>
+2022-01-13 02:53:41.993095 [net info] connected to remote <Conn fd=119 addr=<NetAddr 18.195.144.57:20000> mode=active>
+2022-01-13 02:53:41.993105 [net info] connected to remote <Conn fd=115 addr=<NetAddr 18.185.20.37:20000> mode=active>
+2022-01-13 02:53:41.993113 [net info] connected to remote <Conn fd=117 addr=<NetAddr 52.28.148.92:20000> mode=active>
+2022-01-13 02:53:41.993633 [net info] connected to remote <Conn fd=123 addr=<NetAddr 18.184.136.6:20000> mode=active>
+2022-01-13 02:53:41.993643 [net info] connected to remote <Conn fd=121 addr=<NetAddr 35.158.210.18:20000> mode=active>
+2022-01-13 02:53:41.994005 [net info] connected to remote <Conn fd=125 addr=<NetAddr 3.65.198.51:20000> mode=active>
+2022-01-13 02:53:41.995376 [net info] connected to remote <Conn fd=61 addr=<NetAddr 13.125.151.66:20000> mode=active>
+2022-01-13 02:53:41.995394 [net info] connected to remote <Conn fd=59 addr=<NetAddr 3.36.103.56:20000> mode=active>
+2022-01-13 02:53:41.995795 [net info] connected to remote <Conn fd=57 addr=<NetAddr 52.79.253.61:20000> mode=active>
+2022-01-13 02:53:42.023499 [net info] connected to remote <Conn fd=127 addr=<NetAddr 18.197.55.158:20000> mode=active>
+2022-01-13 02:53:42.024006 [net info] connected to remote <Conn fd=129 addr=<NetAddr 18.159.207.52:20000> mode=active>
+2022-01-13 02:53:42.024296 [net info] connected to remote <Conn fd=133 addr=<NetAddr 3.120.176.118:20000> mode=active>
+2022-01-13 02:53:42.024310 [net info] connected to remote <Conn fd=131 addr=<NetAddr 3.71.16.83:20000> mode=active>
+2022-01-13 02:53:42.024768 [net info] connected to remote <Conn fd=135 addr=<NetAddr 18.159.36.0:20000> mode=active>
+2022-01-13 02:53:42.047240 [net info] connected to remote <Conn fd=63 addr=<NetAddr 3.38.179.145:20000> mode=active>
+2022-01-13 02:53:42.047978 [net info] connected to remote <Conn fd=65 addr=<NetAddr 13.124.45.244:20000> mode=active>
+2022-01-13 02:53:42.048013 [net info] connected to remote <Conn fd=69 addr=<NetAddr 15.165.46.43:20000> mode=active>
+2022-01-13 02:53:42.048472 [net info] connected to remote <Conn fd=71 addr=<NetAddr 3.36.107.210:20000> mode=active>
+2022-01-13 02:53:42.048483 [net info] connected to remote <Conn fd=73 addr=<NetAddr 3.38.221.225:20000> mode=active>
+2022-01-13 02:53:42.048491 [net info] connected to remote <Conn fd=75 addr=<NetAddr 3.38.221.80:20000> mode=active>
+2022-01-13 02:53:42.049085 [net info] connected to remote <Conn fd=67 addr=<NetAddr 3.36.122.29:20000> mode=active>
+2022-01-13 02:53:42.049457 [net info] connected to remote <Conn fd=77 addr=<NetAddr 3.34.50.197:20000> mode=active>
+2022-01-13 02:53:42.049778 [net info] connected to remote <Conn fd=79 addr=<NetAddr 13.124.221.51:20000> mode=active>
+2022-01-13 02:53:42.049803 [net info] connected to remote <Conn fd=81 addr=<NetAddr 13.125.231.214:20000> mode=active>
+2022-01-13 02:53:42.050350 [net info] connected to remote <Conn fd=83 addr=<NetAddr 52.79.48.124:20000> mode=active>
+2022-01-13 02:53:42.050705 [net info] connected to remote <Conn fd=91 addr=<NetAddr 13.124.101.173:20000> mode=active>
+2022-01-13 02:53:42.050725 [net info] connected to remote <Conn fd=85 addr=<NetAddr 54.180.139.105:20000> mode=active>
+2022-01-13 02:53:42.051165 [net info] connected to remote <Conn fd=87 addr=<NetAddr 15.165.18.1:20000> mode=active>
+2022-01-13 02:53:42.051176 [net info] connected to remote <Conn fd=89 addr=<NetAddr 3.34.252.227:20000> mode=active>
+2022-01-13 02:53:42.051189 [net info] connected to remote <Conn fd=93 addr=<NetAddr 3.35.138.94:20000> mode=active>
+2022-01-13 02:53:42.051837 [net info] connected to remote <Conn fd=95 addr=<NetAddr 3.34.49.77:20000> mode=active>
+2022-01-13 02:53:42.061112 [net info] connected to remote <Conn fd=177 addr=<NetAddr 3.112.224.96:20000> mode=active>
+2022-01-13 02:53:42.061579 [net info] connected to remote <Conn fd=181 addr=<NetAddr 13.231.242.218:20000> mode=active>
+2022-01-13 02:53:42.061839 [net info] connected to remote <Conn fd=179 addr=<NetAddr 54.95.218.99:20000> mode=active>
+2022-01-13 02:53:42.062569 [net info] connected to remote <Conn fd=183 addr=<NetAddr 52.194.219.98:20000> mode=active>
+2022-01-13 02:53:42.063693 [net info] connected to remote <Conn fd=199 addr=<NetAddr 18.181.95.100:20000> mode=active>
+2022-01-13 02:53:42.063738 [net info] connected to remote <Conn fd=189 addr=<NetAddr 54.249.85.90:20000> mode=active>
+2022-01-13 02:53:42.064166 [net info] connected to remote <Conn fd=193 addr=<NetAddr 13.231.153.153:20000> mode=active>
+2022-01-13 02:53:42.064418 [net info] connected to remote <Conn fd=185 addr=<NetAddr 52.197.161.220:20000> mode=active>
+2022-01-13 02:53:42.064430 [net info] connected to remote <Conn fd=195 addr=<NetAddr 54.250.25.152:20000> mode=active>
+2022-01-13 02:53:42.064437 [net info] connected to remote <Conn fd=191 addr=<NetAddr 52.194.212.92:20000> mode=active>
+2022-01-13 02:53:42.064444 [net info] connected to remote <Conn fd=197 addr=<NetAddr 54.95.67.132:20000> mode=active>
+2022-01-13 02:53:42.065205 [net info] connected to remote <Conn fd=187 addr=<NetAddr 35.72.8.142:20000> mode=active>
+2022-01-13 02:53:42.065412 [net info] connected to remote <Conn fd=201 addr=<NetAddr 35.72.183.56:20000> mode=active>
+2022-01-13 02:53:42.065624 [net info] connected to remote <Conn fd=205 addr=<NetAddr 35.77.74.160:20000> mode=active>
+2022-01-13 02:53:42.066150 [net info] connected to remote <Conn fd=203 addr=<NetAddr 18.181.236.24:20000> mode=active>
+2022-01-13 02:53:42.066389 [net info] connected to remote <Conn fd=207 addr=<NetAddr 18.176.178.140:20000> mode=active>
+2022-01-13 02:53:42.066723 [net info] connected to remote <Conn fd=209 addr=<NetAddr 35.74.248.38:20000> mode=active>
+2022-01-13 02:53:42.066973 [net info] connected to remote <Conn fd=211 addr=<NetAddr 18.183.106.97:20000> mode=active>
+2022-01-13 02:53:42.067198 [net info] connected to remote <Conn fd=213 addr=<NetAddr 35.72.185.36:20000> mode=active>
+2022-01-13 02:53:42.067462 [net info] connected to remote <Conn fd=215 addr=<NetAddr 35.74.79.162:20000> mode=active>
+2022-01-13 02:53:43.734669 [hotstuff info] 1.798642
+2022-01-13 02:53:43.734999 [hotstuff info] 1.798843
+2022-01-13 02:53:43.735098 [hotstuff info] 1.798819
+2022-01-13 02:53:43.735185 [hotstuff info] 1.798789
+2022-01-13 02:53:43.735284 [hotstuff info] 1.798766
+2022-01-13 02:53:43.735376 [hotstuff info] 1.798741
+2022-01-13 02:53:43.735474 [hotstuff info] 1.798710
+2022-01-13 02:53:43.735558 [hotstuff info] 1.798671
+2022-01-13 02:53:43.735669 [hotstuff info] 1.798663
+2022-01-13 02:53:43.735761 [hotstuff info] 1.798644
+2022-01-13 02:53:43.735865 [hotstuff info] 1.798631
+2022-01-13 02:53:43.735960 [hotstuff info] 1.798614
+2022-01-13 02:53:43.736061 [hotstuff info] 1.798595
+2022-01-13 02:53:43.736150 [hotstuff info] 1.798576
+2022-01-13 02:53:43.736240 [hotstuff info] 1.798550
+2022-01-13 02:53:43.736325 [hotstuff info] 1.798537
+2022-01-13 02:53:43.736415 [hotstuff info] 1.798520
+2022-01-13 02:53:43.736499 [hotstuff info] 1.798500
+2022-01-13 02:53:43.736597 [hotstuff info] 1.798482
+2022-01-13 02:53:43.736691 [hotstuff info] 1.798459
+2022-01-13 02:53:43.736797 [hotstuff info] 1.798448
+2022-01-13 02:53:43.736900 [hotstuff info] 1.798442
+2022-01-13 02:53:43.737001 [hotstuff info] 1.798425
+2022-01-13 02:53:43.737092 [hotstuff info] 1.798404
+2022-01-13 02:53:43.737195 [hotstuff info] 1.798391
+2022-01-13 02:53:43.737286 [hotstuff info] 1.798375
+2022-01-13 02:53:43.737386 [hotstuff info] 1.798367
+2022-01-13 02:53:43.737472 [hotstuff info] 1.798341
+2022-01-13 02:53:43.737567 [hotstuff info] 1.798326
+2022-01-13 02:53:43.737650 [hotstuff info] 1.798301
+2022-01-13 02:53:43.737749 [hotstuff info] 1.798288
+2022-01-13 02:53:43.737835 [hotstuff info] 1.798267
+2022-01-13 02:53:43.737929 [hotstuff info] 1.798201
+2022-01-13 02:53:43.738575 [hotstuff info] 1.798725
+2022-01-13 02:53:43.738675 [hotstuff info] 1.798699
+2022-01-13 02:53:43.738763 [hotstuff info] 1.798662
+2022-01-13 02:53:43.738856 [hotstuff info] 1.798624
+2022-01-13 02:53:43.738940 [hotstuff info] 1.798582
+2022-01-13 02:53:43.739033 [hotstuff info] 1.798550
+2022-01-13 02:53:43.739116 [hotstuff info] 1.798515
+2022-01-13 02:53:43.739213 [hotstuff info] 1.798482
+2022-01-13 02:53:43.739299 [hotstuff info] 1.798448
+2022-01-13 02:53:43.739397 [hotstuff info] 1.798416
+2022-01-13 02:53:43.739483 [hotstuff info] 1.798387
+2022-01-13 02:53:43.739581 [hotstuff info] 1.798398
+2022-01-13 02:53:43.739685 [hotstuff info] 1.798439
+2022-01-13 02:53:43.739782 [hotstuff info] 1.798465
+2022-01-13 02:53:43.739859 [hotstuff info] 1.798478
+2022-01-13 02:53:43.739949 [hotstuff info] 1.798495
+2022-01-13 02:53:43.740038 [hotstuff info] 1.798521
+2022-01-13 02:53:43.740136 [hotstuff info] 1.798547
+2022-01-13 02:53:43.740224 [hotstuff info] 1.798572
+2022-01-13 02:53:43.740324 [hotstuff info] 1.798597
+2022-01-13 02:53:43.740415 [hotstuff info] 1.798625
+2022-01-13 02:53:43.740518 [hotstuff info] 1.798625
+2022-01-13 02:53:43.740600 [hotstuff info] 1.798636
+2022-01-13 02:53:43.740702 [hotstuff info] 1.798665
+2022-01-13 02:53:43.740791 [hotstuff info] 1.798691
+2022-01-13 02:53:43.740892 [hotstuff info] 1.798723
+2022-01-13 02:53:43.740980 [hotstuff info] 1.798742
+2022-01-13 02:53:43.741080 [hotstuff info] 1.798772
+2022-01-13 02:53:43.741169 [hotstuff info] 1.798796
+2022-01-13 02:53:43.741267 [hotstuff info] 1.798822
+2022-01-13 02:53:43.741354 [hotstuff info] 1.798845
+2022-01-13 02:53:43.741450 [hotstuff info] 1.798871
+2022-01-13 02:53:43.741542 [hotstuff info] 1.798900
+2022-01-13 02:53:43.741632 [hotstuff info] 1.798919
+2022-01-13 02:53:43.741678 [hotstuff info] 1.798902
+2022-01-13 02:53:43.741746 [hotstuff info] 1.798899
+2022-01-13 02:53:43.741798 [hotstuff info] 1.798887
+2022-01-13 02:53:43.741857 [hotstuff info] 1.798875
+2022-01-13 02:53:43.741908 [hotstuff info] 1.798865
+2022-01-13 02:53:43.741972 [hotstuff info] 1.798852
+2022-01-13 02:53:43.742030 [hotstuff info] 1.798846
+2022-01-13 02:53:43.742090 [hotstuff info] 1.798821
+2022-01-13 02:53:43.742135 [hotstuff info] 1.798759
+2022-01-13 02:53:43.742196 [hotstuff info] 1.798698
+2022-01-13 02:53:43.742247 [hotstuff info] 1.798626
+2022-01-13 02:53:43.742323 [hotstuff info] 1.798578
+2022-01-13 02:53:43.742384 [hotstuff info] 1.798516
+2022-01-13 02:53:43.742444 [hotstuff info] 1.798456
+2022-01-13 02:53:43.742521 [hotstuff info] 1.798415
+2022-01-13 02:53:43.742586 [hotstuff info] 1.798353
+2022-01-13 02:53:43.742633 [hotstuff info] 1.798284
+2022-01-13 02:53:43.742688 [hotstuff info] 1.798206
+2022-01-13 02:53:43.742737 [hotstuff info] 1.798138
+2022-01-13 02:53:43.742799 [hotstuff info] 1.798068
+2022-01-13 02:53:43.742856 [hotstuff info] 1.798010
+2022-01-13 02:53:43.742932 [hotstuff info] 1.797964
+2022-01-13 02:53:43.742984 [hotstuff info] 1.797904
+2022-01-13 02:53:43.743049 [hotstuff info] 1.797834
+2022-01-13 02:53:43.743097 [hotstuff info] 1.797772
+2022-01-13 02:53:43.743154 [hotstuff info] 1.797714
+2022-01-13 02:53:43.743201 [hotstuff info] 1.797638
+2022-01-13 02:53:43.743261 [hotstuff info] 1.797572
+2022-01-13 02:53:43.743332 [hotstuff info] 1.797516
+2022-01-13 02:53:43.743388 [hotstuff info] 1.797450
+2022-01-13 02:53:43.743444 [hotstuff info] 1.797387
+2022-01-13 02:53:43.743515 [hotstuff info] 1.797343
+2022-01-13 02:53:43.743634 [hotstuff info] 1.797336
+2022-01-13 02:53:43.743706 [hotstuff info] 1.797282
+2022-01-13 02:53:43.778006 [hotstuff info] 1.831461
+2022-01-13 02:53:43.779336 [hotstuff info] 1.832665
+2022-01-13 02:53:43.779619 [hotstuff info] 1.832807
+2022-01-13 02:53:43.779780 [hotstuff info] 1.832897
+2022-01-13 02:53:43.779894 [hotstuff info] 1.832948
+2022-01-13 02:53:43.779994 [hotstuff info] 1.832973
+2022-01-13 02:53:43.780088 [hotstuff info] 1.833004
+2022-01-13 02:53:43.782564 [hotstuff info] 1.835406
+2022-01-13 02:53:43.783960 [hotstuff info] 1.836739
+2022-01-13 02:53:43.784169 [hotstuff info] 1.836876
+2022-01-13 02:53:43.784262 [hotstuff info] 1.836908
+2022-01-13 02:53:43.784442 [hotstuff info] 1.837015
+2022-01-13 02:53:43.784531 [hotstuff info] 1.837041
+2022-01-13 02:53:43.786518 [hotstuff info] 1.838956
+2022-01-13 02:53:43.786915 [hotstuff info] 1.839275
+2022-01-13 02:53:43.787011 [hotstuff info] 1.839297
+2022-01-13 02:53:43.787957 [hotstuff info] 1.840180
+2022-01-13 02:53:43.788057 [hotstuff info] 1.840207
+2022-01-13 02:53:43.788141 [hotstuff info] 1.840227
+2022-01-13 02:53:43.788304 [hotstuff info] 1.840310
+2022-01-13 02:53:43.788390 [hotstuff info] 1.840307
+2022-01-13 02:53:43.788623 [hotstuff info] 1.840449
+2022-01-13 02:53:43.788710 [hotstuff info] 1.840469
+2022-01-13 02:53:43.788802 [hotstuff info] 1.840486
+2022-01-13 02:53:43.788887 [hotstuff info] 1.840503
+2022-01-13 02:53:43.788988 [hotstuff info] 1.840527
+2022-01-13 02:53:43.789082 [hotstuff info] 1.840554
+2022-01-13 02:53:43.789184 [hotstuff info] 1.840580
+2022-01-13 02:53:43.789444 [hotstuff info] 1.840773
+2022-01-13 02:53:43.789629 [hotstuff info] 1.840887
+2022-01-13 02:53:43.789729 [hotstuff info] 1.840922
+2022-01-13 02:53:43.789823 [hotstuff info] 1.840942
+2022-01-13 02:53:43.789907 [hotstuff info] 1.840961
+2022-01-13 02:53:43.790008 [hotstuff info] 1.840989
+2022-01-13 02:53:43.790100 [hotstuff info] 1.841018
+2022-01-13 02:53:43.790199 [hotstuff info] 1.841039
+2022-01-13 02:53:43.790288 [hotstuff info] 1.841065
+2022-01-13 02:53:43.790392 [hotstuff info] 1.841095
+2022-01-13 02:53:43.790479 [hotstuff info] 1.841117
+2022-01-13 02:53:43.790575 [hotstuff info] 1.841141
+2022-01-13 02:53:43.790663 [hotstuff info] 1.841163
+2022-01-13 02:53:43.790765 [hotstuff info] 1.841194
+2022-01-13 02:53:43.790854 [hotstuff info] 1.841221
+2022-01-13 02:53:43.790957 [hotstuff info] 1.841251
+2022-01-13 02:53:43.791042 [hotstuff info] 1.841271
+2022-01-13 02:53:43.791135 [hotstuff info] 1.841292
+2022-01-13 02:53:43.791218 [hotstuff info] 1.841311
+2022-01-13 02:53:43.791317 [hotstuff info] 1.841338
+2022-01-13 02:53:43.791403 [hotstuff info] 1.841362
+2022-01-13 02:53:43.791504 [hotstuff info] 1.841390
+2022-01-13 02:53:43.791593 [hotstuff info] 1.841399
+2022-01-13 02:53:43.791707 [hotstuff info] 1.841425
+2022-01-13 02:53:43.791791 [hotstuff info] 1.841444
+2022-01-13 02:53:43.791891 [hotstuff info] 1.841470
+2022-01-13 02:53:43.791984 [hotstuff info] 1.841499
+2022-01-13 02:53:43.792080 [hotstuff info] 1.841523
+2022-01-13 02:53:43.792173 [hotstuff info] 1.841552
+2022-01-13 02:53:43.792276 [hotstuff info] 1.841581
+2022-01-13 02:53:43.792367 [hotstuff info] 1.841609
+2022-01-13 02:53:43.792468 [hotstuff info] 1.841636
+2022-01-13 02:53:43.792561 [hotstuff info] 1.841665
+2022-01-13 02:53:43.792663 [hotstuff info] 1.841696
+2022-01-13 02:53:43.792760 [hotstuff info] 1.841729
+2022-01-13 02:53:43.792868 [hotstuff info] 1.841764
+2022-01-13 02:53:43.792965 [hotstuff info] 1.841795
+2022-01-13 02:53:43.793073 [hotstuff info] 1.841830
+2022-01-13 02:53:43.793174 [hotstuff info] 1.841861
+2022-01-13 02:53:43.793279 [hotstuff info] 1.841887
+2022-01-13 02:53:43.793380 [hotstuff info] 1.841924
+2022-01-13 02:53:43.793489 [hotstuff info] 1.841961
+2022-01-13 02:53:43.793590 [hotstuff info] 1.842000
+2022-01-13 02:53:43.793698 [hotstuff info] 1.842018
+2022-01-13 02:53:43.793801 [hotstuff info] 1.842056
+2022-01-13 02:53:43.793908 [hotstuff info] 1.842091
+2022-01-13 02:53:45.610348 [hotstuff info] 1.875351
+2022-01-13 02:53:45.610594 [hotstuff info] 1.875497
+2022-01-13 02:53:45.610702 [hotstuff info] 1.875518
+2022-01-13 02:53:45.610795 [hotstuff info] 1.875513
+2022-01-13 02:53:45.610879 [hotstuff info] 1.875505
+2022-01-13 02:53:45.610972 [hotstuff info] 1.875500
+2022-01-13 02:53:45.611059 [hotstuff info] 1.875503
+2022-01-13 02:53:45.611154 [hotstuff info] 1.875487
+2022-01-13 02:53:45.611234 [hotstuff info] 1.875475
+2022-01-13 02:53:45.611323 [hotstuff info] 1.875460
+2022-01-13 02:53:45.611405 [hotstuff info] 1.875447
+2022-01-13 02:53:45.611499 [hotstuff info] 1.875439
+2022-01-13 02:53:45.611582 [hotstuff info] 1.875433
+2022-01-13 02:53:45.611691 [hotstuff info] 1.875453
+2022-01-13 02:53:45.611774 [hotstuff info] 1.875451
+2022-01-13 02:53:45.611865 [hotstuff info] 1.875452
+2022-01-13 02:53:45.611946 [hotstuff info] 1.875449
+2022-01-13 02:53:45.612037 [hotstuff info] 1.875442
+2022-01-13 02:53:45.615585 [hotstuff info] 1.878896
+2022-01-13 02:53:45.615769 [hotstuff info] 1.878973
+2022-01-13 02:53:45.615830 [hotstuff info] 1.878931
+2022-01-13 02:53:45.615894 [hotstuff info] 1.878895
+2022-01-13 02:53:45.615948 [hotstuff info] 1.878857
+2022-01-13 02:53:45.616009 [hotstuff info] 1.878816
+2022-01-13 02:53:45.616062 [hotstuff info] 1.878777
+2022-01-13 02:53:45.616119 [hotstuff info] 1.878734
+2022-01-13 02:53:45.616168 [hotstuff info] 1.878699
+2022-01-13 02:53:45.616224 [hotstuff info] 1.878660
+2022-01-13 02:53:45.616271 [hotstuff info] 1.878623
+2022-01-13 02:53:45.616327 [hotstuff info] 1.878579
+2022-01-13 02:53:45.616375 [hotstuff info] 1.878542
+2022-01-13 02:53:45.616435 [hotstuff info] 1.878508
+2022-01-13 02:53:45.616481 [hotstuff info] 1.877910
+2022-01-13 02:53:45.616535 [hotstuff info] 1.877861
+2022-01-13 02:53:45.616585 [hotstuff info] 1.877824
+2022-01-13 02:53:45.616645 [hotstuff info] 1.877790
+2022-01-13 02:53:45.616696 [hotstuff info] 1.877758
+2022-01-13 02:53:45.616758 [hotstuff info] 1.877726
+2022-01-13 02:53:45.616810 [hotstuff info] 1.877695
+2022-01-13 02:53:45.616878 [hotstuff info] 1.877667
+2022-01-13 02:53:45.616930 [hotstuff info] 1.877632
+2022-01-13 02:53:45.616989 [hotstuff info] 1.877594
+2022-01-13 02:53:45.617043 [hotstuff info] 1.877562
+2022-01-13 02:53:45.617107 [hotstuff info] 1.877528
+2022-01-13 02:53:45.617156 [hotstuff info] 1.877473
+2022-01-13 02:53:45.617215 [hotstuff info] 1.877434
+2022-01-13 02:53:45.617264 [hotstuff info] 1.877408
+2022-01-13 02:53:45.617326 [hotstuff info] 1.877378
+2022-01-13 02:53:45.617375 [hotstuff info] 1.877340
+2022-01-13 02:53:45.617434 [hotstuff info] 1.877299
+2022-01-13 02:53:45.617482 [hotstuff info] 1.877260
+2022-01-13 02:53:45.617537 [hotstuff info] 1.877215
+2022-01-13 02:53:45.617586 [hotstuff info] 1.877172
+2022-01-13 02:53:45.655964 [hotstuff info] 1.915447
+2022-01-13 02:53:45.656200 [hotstuff info] 1.915602
+2022-01-13 02:53:45.656364 [hotstuff info] 1.915664
+2022-01-13 02:53:45.656471 [hotstuff info] 1.915680
+2022-01-13 02:53:45.657497 [hotstuff info] 1.916606
+2022-01-13 02:53:45.657694 [hotstuff info] 1.916717
+2022-01-13 02:53:45.658659 [hotstuff info] 1.917579
+2022-01-13 02:53:45.658890 [hotstuff info] 1.917724
+2022-01-13 02:53:45.659026 [hotstuff info] 1.917760
+2022-01-13 02:53:45.659143 [hotstuff info] 1.917792
+2022-01-13 02:53:45.659274 [hotstuff info] 1.917826
+2022-01-13 02:53:45.659362 [hotstuff info] 1.917821
+2022-01-13 02:53:45.659600 [hotstuff info] 1.917969
+2022-01-13 02:53:45.659744 [hotstuff info] 1.918066
+2022-01-13 02:53:45.659858 [hotstuff info] 1.918112
+2022-01-13 02:53:45.659937 [hotstuff info] 1.918140
+2022-01-13 02:53:45.661672 [hotstuff info] 1.919816
+2022-01-13 02:53:45.661917 [hotstuff info] 1.920009
+2022-01-13 02:53:45.662140 [hotstuff info] 1.920169
+2022-01-13 02:53:45.662244 [hotstuff info] 1.920214
+2022-01-13 02:53:45.662377 [hotstuff info] 1.920288
+2022-01-13 02:53:45.662482 [hotstuff info] 1.920349
+2022-01-13 02:53:45.662675 [hotstuff info] 1.920480
+2022-01-13 02:53:45.662799 [hotstuff info] 1.920554
+2022-01-13 02:53:45.662956 [hotstuff info] 1.920635
+2022-01-13 02:53:45.663060 [hotstuff info] 1.920676
+2022-01-13 02:53:45.663156 [hotstuff info] 1.920713
+2022-01-13 02:53:45.663260 [hotstuff info] 1.920739
+2022-01-13 02:53:45.663358 [hotstuff info] 1.920773
+2022-01-13 02:53:45.663562 [hotstuff info] 1.920929
+2022-01-13 02:53:45.663679 [hotstuff info] 1.920992
+2022-01-13 02:53:45.663771 [hotstuff info] 1.921035
+2022-01-13 02:53:45.663925 [hotstuff info] 1.921127
+2022-01-13 02:53:45.664036 [hotstuff info] 1.921181
+2022-01-13 02:53:45.664154 [hotstuff info] 1.921223
+2022-01-13 02:53:45.664249 [hotstuff info] 1.921266
+2022-01-13 02:53:45.664356 [hotstuff info] 1.921308
+2022-01-13 02:53:45.664454 [hotstuff info] 1.921357
+2022-01-13 02:53:45.664546 [hotstuff info] 1.921394
+2022-01-13 02:53:45.664646 [hotstuff info] 1.921445
+2022-01-13 02:53:45.664758 [hotstuff info] 1.921498
+2022-01-13 02:53:45.664860 [hotstuff info] 1.921549
+2022-01-13 02:53:45.664975 [hotstuff info] 1.921587
+2022-01-13 02:53:45.665081 [hotstuff info] 1.921638
+2022-01-13 02:53:45.665189 [hotstuff info] 1.921674
+2022-01-13 02:53:45.665292 [hotstuff info] 1.921711
+2022-01-13 02:53:45.665403 [hotstuff info] 1.921698
+2022-01-13 02:53:45.665506 [hotstuff info] 1.921743
+2022-01-13 02:53:45.665615 [hotstuff info] 1.887395
+2022-01-13 02:53:45.665715 [hotstuff info] 1.886153
+2022-01-13 02:53:45.665824 [hotstuff info] 1.886079
+2022-01-13 02:53:45.665927 [hotstuff info] 1.886034
+2022-01-13 02:53:45.666034 [hotstuff info] 1.886042
+2022-01-13 02:53:45.666133 [hotstuff info] 1.886046
+2022-01-13 02:53:45.666245 [hotstuff info] 1.886058
+2022-01-13 02:53:45.666341 [hotstuff info] 1.883575
+2022-01-13 02:53:45.666450 [hotstuff info] 1.882283
+2022-01-13 02:53:45.666548 [hotstuff info] 1.882287
+2022-01-13 02:53:45.666657 [hotstuff info] 1.882289
+2022-01-13 02:53:45.666740 [hotstuff info] 1.882210
+2022-01-13 02:53:45.666851 [hotstuff info] 1.882243
+2022-01-13 02:53:45.967520 [hotstuff info] 2.180770
+2022-01-13 02:53:45.967737 [hotstuff info] 2.180727
+2022-01-13 02:53:45.967819 [hotstuff info] 2.180724
+2022-01-13 02:53:45.967907 [hotstuff info] 2.179853
+2022-01-13 02:53:45.967994 [hotstuff info] 2.179855
+2022-01-13 02:53:45.968085 [hotstuff info] 2.179855
+2022-01-13 02:53:45.968165 [hotstuff info] 2.179777
+2022-01-13 02:53:45.968253 [hotstuff info] 2.179772
+2022-01-13 02:53:45.968337 [hotstuff info] 2.179628
+2022-01-13 02:53:45.968426 [hotstuff info] 2.179625
+2022-01-13 02:53:45.968509 [hotstuff info] 2.179624
+2022-01-13 02:53:45.968596 [hotstuff info] 2.179609
+2022-01-13 02:53:45.968679 [hotstuff info] 2.179598
+2022-01-13 02:53:45.968771 [hotstuff info] 2.179588
+2022-01-13 02:53:45.968856 [hotstuff info] 2.179414
+2022-01-13 02:53:45.968952 [hotstuff info] 2.179407
+2022-01-13 02:53:45.969039 [hotstuff info] 2.179311
+2022-01-13 02:53:45.969139 [hotstuff info] 2.179317
+2022-01-13 02:53:45.969224 [hotstuff info] 2.179318
+2022-01-13 02:53:45.969316 [hotstuff info] 2.179309
+2022-01-13 02:53:45.969399 [hotstuff info] 2.179300
+2022-01-13 02:53:45.969505 [hotstuff info] 2.179308
+2022-01-13 02:53:45.969597 [hotstuff info] 2.179310
+2022-01-13 02:53:45.969691 [hotstuff info] 2.179300
+2022-01-13 02:53:45.969777 [hotstuff info] 2.179301
+2022-01-13 02:53:45.969873 [hotstuff info] 2.179299
+2022-01-13 02:53:45.969959 [hotstuff info] 2.179297
+2022-01-13 02:53:45.970056 [hotstuff info] 2.179293
+2022-01-13 02:53:45.970141 [hotstuff info] 2.179288
+2022-01-13 02:53:45.970239 [hotstuff info] 2.179283
+2022-01-13 02:53:45.970327 [hotstuff info] 2.179286
+2022-01-13 02:53:45.970424 [hotstuff info] 2.179290
+2022-01-13 02:53:45.970514 [hotstuff info] 2.179297
+2022-01-13 02:53:45.970615 [hotstuff info] 2.179299
+2022-01-13 02:53:45.970702 [hotstuff info] 2.179300
+2022-01-13 02:53:45.970800 [hotstuff info] 2.179298
+2022-01-13 02:53:45.970885 [hotstuff info] 2.179294
+2022-01-13 02:53:45.970984 [hotstuff info] 2.179279
+2022-01-13 02:53:45.971065 [hotstuff info] 2.179275
+2022-01-13 02:53:45.971159 [hotstuff info] 2.179270
+2022-01-13 02:53:45.971243 [hotstuff info] 2.179260
+2022-01-13 02:53:45.971341 [hotstuff info] 2.179262
+2022-01-13 02:53:45.971429 [hotstuff info] 2.179257
+2022-01-13 02:53:45.971530 [hotstuff info] 2.179256
+2022-01-13 02:53:45.971631 [hotstuff info] 2.179266
+2022-01-13 02:53:45.971735 [hotstuff info] 2.179268
+2022-01-13 02:53:45.971828 [hotstuff info] 2.179268
+2022-01-13 02:53:45.971924 [hotstuff info] 2.179263
+2022-01-13 02:53:45.972014 [hotstuff info] 2.179257
+2022-01-13 02:53:45.972112 [hotstuff info] 2.179246
+2022-01-13 02:53:45.972192 [hotstuff info] 2.179228
+2022-01-13 02:53:45.972287 [hotstuff info] 2.179216
+2022-01-13 02:53:45.972365 [hotstuff info] 2.179193
+2022-01-13 02:53:45.972461 [hotstuff info] 2.179184
+2022-01-13 02:53:45.972544 [hotstuff info] 2.179165
+2022-01-13 02:53:45.972639 [hotstuff info] 2.179151
+2022-01-13 02:53:45.972719 [hotstuff info] 2.179130
+2022-01-13 02:53:45.972819 [hotstuff info] 2.179122
+2022-01-13 02:53:45.972905 [hotstuff info] 2.179105
+2022-01-13 02:53:45.973007 [hotstuff info] 2.179100
+2022-01-13 02:53:45.973090 [hotstuff info] 2.179087
+2022-01-13 02:53:47.551870 [hotstuff info] 1.941278
+2022-01-13 02:53:47.552077 [hotstuff info] 1.941377
+2022-01-13 02:53:47.552181 [hotstuff info] 1.941387
+2022-01-13 02:53:47.552303 [hotstuff info] 1.941426
+2022-01-13 02:53:47.552372 [hotstuff info] 1.941401
+2022-01-13 02:53:47.552437 [hotstuff info] 1.941380
+2022-01-13 02:53:47.552512 [hotstuff info] 1.941360
+2022-01-13 02:53:47.552575 [hotstuff info] 1.941343
+2022-01-13 02:53:47.552663 [hotstuff info] 1.941341
+2022-01-13 02:53:47.552724 [hotstuff info] 1.941321
+2022-01-13 02:53:47.552814 [hotstuff info] 1.941316
+2022-01-13 02:53:47.552899 [hotstuff info] 1.941319
+2022-01-13 02:53:47.552993 [hotstuff info] 1.941303
+2022-01-13 02:53:47.553083 [hotstuff info] 1.941310
+2022-01-13 02:53:47.553179 [hotstuff info] 1.941315
+2022-01-13 02:53:47.553266 [hotstuff info] 1.941321
+2022-01-13 02:53:47.553364 [hotstuff info] 1.941328
+2022-01-13 02:53:47.553452 [hotstuff info] 1.941337
+2022-01-13 02:53:47.556630 [hotstuff info] 1.940862
+2022-01-13 02:53:47.556874 [hotstuff info] 1.941045
+2022-01-13 02:53:47.556993 [hotstuff info] 1.941099
+2022-01-13 02:53:47.557087 [hotstuff info] 1.941140
+2022-01-13 02:53:47.557184 [hotstuff info] 1.941175
+2022-01-13 02:53:47.557275 [hotstuff info] 1.941214
+2022-01-13 02:53:47.557371 [hotstuff info] 1.941254
+2022-01-13 02:53:47.557460 [hotstuff info] 1.941293
+2022-01-13 02:53:47.557554 [hotstuff info] 1.941330
+2022-01-13 02:53:47.557640 [hotstuff info] 1.941370
+2022-01-13 02:53:47.557733 [hotstuff info] 1.941407
+2022-01-13 02:53:47.557819 [hotstuff info] 1.941444
+2022-01-13 02:53:47.557913 [hotstuff info] 1.941479
+2022-01-13 02:53:47.558003 [hotstuff info] 1.941522
+2022-01-13 02:53:47.558096 [hotstuff info] 1.941562
+2022-01-13 02:53:47.558180 [hotstuff info] 1.941596
+2022-01-13 02:53:47.558277 [hotstuff info] 1.941633
+2022-01-13 02:53:47.558360 [hotstuff info] 1.941665
+2022-01-13 02:53:47.558461 [hotstuff info] 1.941704
+2022-01-13 02:53:47.558550 [hotstuff info] 1.941741
+2022-01-13 02:53:47.558651 [hotstuff info] 1.941775
+2022-01-13 02:53:47.558737 [hotstuff info] 1.941808
+2022-01-13 02:53:47.558839 [hotstuff info] 1.941850
+2022-01-13 02:53:47.558929 [hotstuff info] 1.941893
+2022-01-13 02:53:47.559030 [hotstuff info] 1.941924
+2022-01-13 02:53:47.559119 [hotstuff info] 1.941963
+2022-01-13 02:53:47.559215 [hotstuff info] 1.942001
+2022-01-13 02:53:47.559304 [hotstuff info] 1.942040
+2022-01-13 02:53:47.559406 [hotstuff info] 1.942081
+2022-01-13 02:53:47.559498 [hotstuff info] 1.942123
+2022-01-13 02:53:47.559598 [hotstuff info] 1.942165
+2022-01-13 02:53:47.559701 [hotstuff info] 1.942220
+2022-01-13 02:53:47.559800 [hotstuff info] 1.942263
+2022-01-13 02:53:47.559886 [hotstuff info] 1.942301
+2022-01-13 02:53:47.559981 [hotstuff info] 1.942340
+2022-01-13 02:53:47.598033 [hotstuff info] 1.941835
+2022-01-13 02:53:47.601126 [hotstuff info] 1.944764
+2022-01-13 02:53:47.602373 [hotstuff info] 1.945905
+2022-01-13 02:53:47.603357 [hotstuff info] 1.946788
+2022-01-13 02:53:47.604187 [hotstuff info] 1.946494
+2022-01-13 02:53:47.604422 [hotstuff info] 1.946614
+2022-01-13 02:53:47.604560 [hotstuff info] 1.945671
+2022-01-13 02:53:47.604658 [hotstuff info] 1.945634
+2022-01-13 02:53:47.604736 [hotstuff info] 1.945594
+2022-01-13 02:53:47.604832 [hotstuff info] 1.945581
+2022-01-13 02:53:47.604927 [hotstuff info] 1.945567
+2022-01-13 02:53:47.605027 [hotstuff info] 1.945556
+2022-01-13 02:53:47.605117 [hotstuff info] 1.945375
+2022-01-13 02:53:47.605215 [hotstuff info] 1.945371
+2022-01-13 02:53:47.605305 [hotstuff info] 1.945371
+2022-01-13 02:53:47.605403 [hotstuff info] 1.945362
+2022-01-13 02:53:47.605491 [hotstuff info] 1.943576
+2022-01-13 02:53:47.605593 [hotstuff info] 1.943507
+2022-01-13 02:53:47.605685 [hotstuff info] 1.943442
+2022-01-13 02:53:47.605792 [hotstuff info] 1.943416
+2022-01-13 02:53:47.605888 [hotstuff info] 1.943408
+2022-01-13 02:53:47.605988 [hotstuff info] 1.943387
+2022-01-13 02:53:47.606080 [hotstuff info] 1.943282
+2022-01-13 02:53:47.606181 [hotstuff info] 1.943270
+2022-01-13 02:53:47.606274 [hotstuff info] 1.943215
+2022-01-13 02:53:47.606376 [hotstuff info] 1.943221
+2022-01-13 02:53:47.606462 [hotstuff info] 1.943203
+2022-01-13 02:53:47.606567 [hotstuff info] 1.943210
+2022-01-13 02:53:47.606658 [hotstuff info] 1.943097
+2022-01-13 02:53:47.606756 [hotstuff info] 1.943079
+2022-01-13 02:53:47.606852 [hotstuff info] 1.943082
+2022-01-13 02:53:47.606951 [hotstuff info] 1.943071
+2022-01-13 02:53:47.607040 [hotstuff info] 1.943005
+2022-01-13 02:53:47.607141 [hotstuff info] 1.942989
+2022-01-13 02:53:47.607231 [hotstuff info] 1.942983
+2022-01-13 02:53:47.607334 [hotstuff info] 1.942980
+2022-01-13 02:53:47.607427 [hotstuff info] 1.942975
+2022-01-13 02:53:47.607525 [hotstuff info] 1.942980
+2022-01-13 02:53:47.607619 [hotstuff info] 1.942959
+2022-01-13 02:53:47.607715 [hotstuff info] 1.942958
+2022-01-13 02:53:47.607809 [hotstuff info] 1.942951
+2022-01-13 02:53:47.607910 [hotstuff info] 1.942937
+2022-01-13 02:53:47.608009 [hotstuff info] 1.942930
+2022-01-13 02:53:47.608118 [hotstuff info] 1.942930
+2022-01-13 02:53:47.907724 [hotstuff info] 2.242433
+2022-01-13 02:53:47.907941 [hotstuff info] 2.242539
+2022-01-13 02:53:47.908049 [hotstuff info] 2.242545
+2022-01-13 02:53:47.908151 [hotstuff info] 2.242539
+2022-01-13 02:53:47.908240 [hotstuff info] 2.242526
+2022-01-13 02:53:47.908336 [hotstuff info] 2.242513
+2022-01-13 02:53:47.908421 [hotstuff info] 2.242496
+2022-01-13 02:53:47.908514 [hotstuff info] 2.242482
+2022-01-13 02:53:47.908600 [hotstuff info] 2.242469
+2022-01-13 02:53:47.908695 [hotstuff info] 2.242451
+2022-01-13 02:53:47.908780 [hotstuff info] 2.242440
+2022-01-13 02:53:47.908872 [hotstuff info] 2.242423
+2022-01-13 02:53:47.908956 [hotstuff info] 2.242410
+2022-01-13 02:53:47.909052 [hotstuff info] 2.242396
+2022-01-13 02:53:47.909137 [hotstuff info] 2.242398
+2022-01-13 02:53:47.909234 [hotstuff info] 2.242384
+2022-01-13 02:53:47.909323 [hotstuff info] 2.242372
+2022-01-13 02:53:47.914382 [hotstuff info] 1.946648
+2022-01-13 02:53:47.914610 [hotstuff info] 1.946792
+2022-01-13 02:53:47.914730 [hotstuff info] 1.946824
+2022-01-13 02:53:47.914818 [hotstuff info] 1.946825
+2022-01-13 02:53:47.914919 [hotstuff info] 1.946835
+2022-01-13 02:53:47.915009 [hotstuff info] 1.946845
+2022-01-13 02:53:47.915106 [hotstuff info] 1.946856
+2022-01-13 02:53:47.915195 [hotstuff info] 1.946860
+2022-01-13 02:53:47.915293 [hotstuff info] 1.946868
+2022-01-13 02:53:47.915377 [hotstuff info] 1.946870
+2022-01-13 02:53:47.915481 [hotstuff info] 1.946887
+2022-01-13 02:53:47.915566 [hotstuff info] 1.946888
+2022-01-13 02:53:47.915676 [hotstuff info] 1.946906
+2022-01-13 02:53:47.915763 [hotstuff info] 1.946909
+2022-01-13 02:53:47.915854 [hotstuff info] 1.946903
+2022-01-13 02:53:47.915940 [hotstuff info] 1.946903
+2022-01-13 02:53:47.916034 [hotstuff info] 1.946897
+2022-01-13 02:53:47.916119 [hotstuff info] 1.946897
+2022-01-13 02:53:47.916213 [hotstuff info] 1.946898
+2022-01-13 02:53:47.916296 [hotstuff info] 1.946900
+2022-01-13 02:53:47.916399 [hotstuff info] 1.946909
+2022-01-13 02:53:47.916488 [hotstuff info] 1.946892
+2022-01-13 02:53:47.916588 [hotstuff info] 1.946898
+2022-01-13 02:53:47.916684 [hotstuff info] 1.946908
+2022-01-13 02:53:47.949906 [hotstuff info] 1.980034
+2022-01-13 02:53:47.950075 [hotstuff info] 1.980117
+2022-01-13 02:53:47.950169 [hotstuff info] 1.980114
+2022-01-13 02:53:47.950250 [hotstuff info] 1.980112
+2022-01-13 02:53:47.950340 [hotstuff info] 1.980103
+2022-01-13 02:53:47.950402 [hotstuff info] 1.980077
+2022-01-13 02:53:47.950493 [hotstuff info] 1.980070
+2022-01-13 02:53:47.950566 [hotstuff info] 1.980053
+2022-01-13 02:53:47.953191 [hotstuff info] 1.982577
+2022-01-13 02:53:47.953514 [hotstuff info] 1.982814
+2022-01-13 02:53:47.953579 [hotstuff info] 1.982782
+2022-01-13 02:53:47.955555 [hotstuff info] 1.984671
+2022-01-13 02:53:47.955828 [hotstuff info] 1.984846
+2022-01-13 02:53:47.955921 [hotstuff info] 1.984857
+2022-01-13 02:53:47.956018 [hotstuff info] 1.984860
+2022-01-13 02:53:47.956113 [hotstuff info] 1.984873
+2022-01-13 02:53:47.956210 [hotstuff info] 1.984871
+2022-01-13 02:53:47.958246 [hotstuff info] 1.986817
+2022-01-13 02:53:47.958479 [hotstuff info] 1.986951
+2022-01-13 02:53:47.958570 [hotstuff info] 1.986940
+2022-01-13 02:53:47.958663 [hotstuff info] 1.986929
+2022-01-13 02:53:47.958782 [hotstuff info] 1.986955
+2022-01-13 02:53:47.958874 [hotstuff info] 1.986951
+2022-01-13 02:53:47.958955 [hotstuff info] 1.986943
+2022-01-13 02:53:47.959046 [hotstuff info] 1.986935
+2022-01-13 02:53:47.959286 [hotstuff info] 1.987095
+2022-01-13 02:53:47.959377 [hotstuff info] 1.987091
+2022-01-13 02:53:47.959525 [hotstuff info] 1.987160
+2022-01-13 02:53:47.959655 [hotstuff info] 1.987195
+2022-01-13 02:53:47.959745 [hotstuff info] 1.987202
+2022-01-13 02:53:47.959843 [hotstuff info] 1.987205
+2022-01-13 02:53:47.959935 [hotstuff info] 1.987218
+2022-01-13 02:53:47.960035 [hotstuff info] 1.987218
+2022-01-13 02:53:47.960130 [hotstuff info] 1.987227
+2022-01-13 02:53:47.960224 [hotstuff info] 1.987219
+2022-01-13 02:53:47.960315 [hotstuff info] 1.987226
+2022-01-13 02:53:47.960407 [hotstuff info] 1.987221
+2022-01-13 02:53:49.347007 [hotstuff info] 1.794932
+2022-01-13 02:53:49.347265 [hotstuff info] 1.795086
+2022-01-13 02:53:49.347372 [hotstuff info] 1.795112
+2022-01-13 02:53:49.347475 [hotstuff info] 1.795104
+2022-01-13 02:53:49.347564 [hotstuff info] 1.795128
+2022-01-13 02:53:49.347678 [hotstuff info] 1.795167
+2022-01-13 02:53:49.347762 [hotstuff info] 1.795188
+2022-01-13 02:53:49.347860 [hotstuff info] 1.795198
+2022-01-13 02:53:49.347946 [hotstuff info] 1.795222
+2022-01-13 02:53:49.348044 [hotstuff info] 1.795232
+2022-01-13 02:53:49.348130 [hotstuff info] 1.795232
+2022-01-13 02:53:49.348227 [hotstuff info] 1.795236
+2022-01-13 02:53:49.348310 [hotstuff info] 1.795229
+2022-01-13 02:53:49.348410 [hotstuff info] 1.795233
+2022-01-13 02:53:49.348495 [hotstuff info] 1.795230
+2022-01-13 02:53:49.348594 [hotstuff info] 1.795231
+2022-01-13 02:53:49.348678 [hotstuff info] 1.795227
+2022-01-13 02:53:49.348774 [hotstuff info] 1.795226
+2022-01-13 02:53:49.350641 [hotstuff info] 1.793769
+2022-01-13 02:53:49.350832 [hotstuff info] 1.793840
+2022-01-13 02:53:49.350930 [hotstuff info] 1.793845
+2022-01-13 02:53:49.351025 [hotstuff info] 1.793842
+2022-01-13 02:53:49.351109 [hotstuff info] 1.793837
+2022-01-13 02:53:49.351210 [hotstuff info] 1.793840
+2022-01-13 02:53:49.351291 [hotstuff info] 1.793834
+2022-01-13 02:53:49.351389 [hotstuff info] 1.793837
+2022-01-13 02:53:49.351474 [hotstuff info] 1.793835
+2022-01-13 02:53:49.351568 [hotstuff info] 1.793836
+2022-01-13 02:53:49.351669 [hotstuff info] 1.793852
+2022-01-13 02:53:49.351764 [hotstuff info] 1.793853
+2022-01-13 02:53:49.351847 [hotstuff info] 1.793846
+2022-01-13 02:53:49.389494 [hotstuff info] 1.831399
+2022-01-13 02:53:49.389738 [hotstuff info] 1.831559
+2022-01-13 02:53:49.391857 [hotstuff info] 1.833581
+2022-01-13 02:53:49.392037 [hotstuff info] 1.833680
+2022-01-13 02:53:49.393147 [hotstuff info] 1.834687
+2022-01-13 02:53:49.393417 [hotstuff info] 1.834869
+2022-01-13 02:53:49.393695 [hotstuff info] 1.835045
+2022-01-13 02:53:49.393909 [hotstuff info] 1.835168
+2022-01-13 02:53:49.394054 [hotstuff info] 1.835216
+2022-01-13 02:53:49.395591 [hotstuff info] 1.836663
+2022-01-13 02:53:49.395845 [hotstuff info] 1.836816
+2022-01-13 02:53:49.395905 [hotstuff info] 1.836787
+2022-01-13 02:53:49.395983 [hotstuff info] 1.836771
+2022-01-13 02:53:49.396066 [hotstuff info] 1.836764
+2022-01-13 02:53:49.396144 [hotstuff info] 1.836740
+2022-01-13 02:53:49.396191 [hotstuff info] 1.836694
+2022-01-13 02:53:49.396252 [hotstuff info] 1.836656
+2022-01-13 02:53:49.396308 [hotstuff info] 1.836609
+2022-01-13 02:53:49.396470 [hotstuff info] 1.836672
+2022-01-13 02:53:49.396550 [hotstuff info] 1.836665
+2022-01-13 02:53:49.398472 [hotstuff info] 1.838494
+2022-01-13 02:53:49.398647 [hotstuff info] 1.838581
+2022-01-13 02:53:49.398777 [hotstuff info] 1.800522
+2022-01-13 02:53:49.398868 [hotstuff info] 1.797529
+2022-01-13 02:53:49.398947 [hotstuff info] 1.796360
+2022-01-13 02:53:49.399002 [hotstuff info] 1.795410
+2022-01-13 02:53:49.399077 [hotstuff info] 1.794657
+2022-01-13 02:53:49.399181 [hotstuff info] 1.794623
+2022-01-13 02:53:49.399267 [hotstuff info] 1.794611
+2022-01-13 02:53:49.399342 [hotstuff info] 1.794609
+2022-01-13 02:53:49.399424 [hotstuff info] 1.794594
+2022-01-13 02:53:49.399480 [hotstuff info] 1.794555
+2022-01-13 02:53:49.399536 [hotstuff info] 1.794511
+2022-01-13 02:53:49.399591 [hotstuff info] 1.794477
+2022-01-13 02:53:49.399674 [hotstuff info] 1.794461
+2022-01-13 02:53:49.399748 [hotstuff info] 1.794445
+2022-01-13 02:53:49.703413 [hotstuff info] 2.098011
+2022-01-13 02:53:49.703651 [hotstuff info] 2.098161
+2022-01-13 02:53:49.703760 [hotstuff info] 2.098168
+2022-01-13 02:53:49.703850 [hotstuff info] 2.098165
+2022-01-13 02:53:49.703941 [hotstuff info] 2.098150
+2022-01-13 02:53:49.704025 [hotstuff info] 2.098138
+2022-01-13 02:53:49.704114 [hotstuff info] 2.098127
+2022-01-13 02:53:49.704194 [hotstuff info] 2.098115
+2022-01-13 02:53:49.704285 [hotstuff info] 2.098106
+2022-01-13 02:53:49.704369 [hotstuff info] 2.098097
+2022-01-13 02:53:49.704464 [hotstuff info] 2.098090
+2022-01-13 02:53:49.704544 [hotstuff info] 2.098083
+2022-01-13 02:53:49.704632 [hotstuff info] 2.098066
+2022-01-13 02:53:49.704711 [hotstuff info] 2.098054
+2022-01-13 02:53:49.704802 [hotstuff info] 2.098047
+2022-01-13 02:53:49.704882 [hotstuff info] 2.098031
+2022-01-13 02:53:49.704973 [hotstuff info] 2.098023
+2022-01-13 02:53:49.705055 [hotstuff info] 2.098016
+2022-01-13 02:53:49.705145 [hotstuff info] 2.098005
+2022-01-13 02:53:49.705226 [hotstuff info] 2.097996
+2022-01-13 02:53:49.705321 [hotstuff info] 2.097989
+2022-01-13 02:53:49.705406 [hotstuff info] 2.097981
+2022-01-13 02:53:49.705501 [hotstuff info] 2.097978
+2022-01-13 02:53:49.705588 [hotstuff info] 2.097986
+2022-01-13 02:53:49.705680 [hotstuff info] 2.097966
+2022-01-13 02:53:49.705761 [hotstuff info] 2.097953
+2022-01-13 02:53:49.705854 [hotstuff info] 2.097944
+2022-01-13 02:53:49.705940 [hotstuff info] 2.097932
+2022-01-13 02:53:49.706038 [hotstuff info] 2.097922
+2022-01-13 02:53:49.706123 [hotstuff info] 2.097910
+2022-01-13 02:53:49.706215 [hotstuff info] 1.798276
+2022-01-13 02:53:49.706297 [hotstuff info] 1.798250
+2022-01-13 02:53:49.706394 [hotstuff info] 1.798244
+2022-01-13 02:53:49.706478 [hotstuff info] 1.798240
+2022-01-13 02:53:49.706571 [hotstuff info] 1.798236
+2022-01-13 02:53:49.706653 [hotstuff info] 1.798233
+2022-01-13 02:53:49.706744 [hotstuff info] 1.798231
+2022-01-13 02:53:49.706827 [hotstuff info] 1.798229
+2022-01-13 02:53:49.710912 [hotstuff info] 1.802216
+2022-01-13 02:53:49.711103 [hotstuff info] 1.802324
+2022-01-13 02:53:49.711194 [hotstuff info] 1.802323
+2022-01-13 02:53:49.746154 [hotstuff info] 1.837200
+2022-01-13 02:53:49.746361 [hotstuff info] 1.837311
+2022-01-13 02:53:49.746439 [hotstuff info] 1.837303
+2022-01-13 02:53:49.746534 [hotstuff info] 1.837302
+2022-01-13 02:53:49.746617 [hotstuff info] 1.837295
+2022-01-13 02:53:49.746700 [hotstuff info] 1.837283
+2022-01-13 02:53:49.750149 [hotstuff info] 1.835541
+2022-01-13 02:53:49.752230 [hotstuff info] 1.837503
+2022-01-13 02:53:49.752451 [hotstuff info] 1.837635
+2022-01-13 02:53:49.752765 [hotstuff info] 1.837846
+2022-01-13 02:53:49.752937 [hotstuff info] 1.837930
+2022-01-13 02:53:49.753025 [hotstuff info] 1.837921
+2022-01-13 02:53:49.753099 [hotstuff info] 1.837905
+2022-01-13 02:53:49.753182 [hotstuff info] 1.837890
+2022-01-13 02:53:49.753259 [hotstuff info] 1.837883
+2022-01-13 02:53:49.753345 [hotstuff info] 1.837867
+2022-01-13 02:53:49.753422 [hotstuff info] 1.837858
+2022-01-13 02:53:49.753509 [hotstuff info] 1.837834
+2022-01-13 02:53:49.753580 [hotstuff info] 1.837820
+2022-01-13 02:53:49.753664 [hotstuff info] 1.837812
+2022-01-13 02:53:49.753741 [hotstuff info] 1.837801
+2022-01-13 02:53:49.753825 [hotstuff info] 1.837793
+2022-01-13 02:53:49.753900 [hotstuff info] 1.837783
+2022-01-13 02:53:49.753994 [hotstuff info] 1.837782
+2022-01-13 02:53:49.754073 [hotstuff info] 1.837778
+2022-01-13 02:53:49.754164 [hotstuff info] 1.837766
+2022-01-13 02:53:49.754243 [hotstuff info] 1.837756
+2022-01-13 02:53:49.754334 [hotstuff info] 1.837747
+2022-01-13 02:53:49.754414 [hotstuff info] 1.837732
+2022-01-13 02:53:49.754503 [hotstuff info] 1.837725
+2022-01-13 02:53:49.754596 [hotstuff info] 1.804522
+2022-01-13 02:53:49.754720 [hotstuff info] 1.804552
+2022-01-13 02:53:49.754799 [hotstuff info] 1.804549
+2022-01-13 02:53:49.755067 [hotstuff info] 1.804728
+2022-01-13 02:53:49.755148 [hotstuff info] 1.804747
+2022-01-13 02:53:49.755237 [hotstuff info] 1.804745
+2022-01-13 02:53:49.755315 [hotstuff info] 1.804751
+2022-01-13 02:53:49.755406 [hotstuff info] 1.804715
+2022-01-13 02:53:49.759745 [hotstuff info] 1.806373
+2022-01-13 02:53:49.759922 [hotstuff info] 1.806344
+2022-01-13 02:53:49.760035 [hotstuff info] 1.806405
+2022-01-13 02:53:49.760194 [hotstuff info] 1.804411
+2022-01-13 02:53:49.760291 [hotstuff info] 1.804372
+2022-01-13 02:53:49.760384 [hotstuff info] 1.804368
+2022-01-13 02:53:49.760498 [hotstuff info] 1.804386
+2022-01-13 02:53:49.762178 [hotstuff info] 1.805968
+2022-01-13 02:53:49.762366 [hotstuff info] 1.806064
+2022-01-13 02:53:49.762480 [hotstuff info] 1.804003
+2022-01-13 02:53:49.762567 [hotstuff info] 1.803999
+2022-01-13 02:53:49.762663 [hotstuff info] 1.804002
+2022-01-13 02:53:49.762749 [hotstuff info] 1.804006
+2022-01-13 02:53:49.762841 [hotstuff info] 1.803968
+2022-01-13 02:53:49.762927 [hotstuff info] 1.803973
+2022-01-13 02:53:49.763026 [hotstuff info] 1.803982
+2022-01-13 02:53:49.763113 [hotstuff info] 1.803829
+2022-01-13 02:53:49.763206 [hotstuff info] 1.803831
+2022-01-13 02:53:49.763297 [hotstuff info] 1.803835
+2022-01-13 02:53:49.763395 [hotstuff info] 1.803742
+2022-01-13 02:53:49.763479 [hotstuff info] 1.803735
+2022-01-13 02:53:49.763571 [hotstuff info] 1.803730
+2022-01-13 02:53:49.763672 [hotstuff info] 1.803738
+2022-01-13 02:53:49.763766 [hotstuff info] 1.803732
+2022-01-13 02:53:49.763851 [hotstuff info] 1.803722
+2022-01-13 02:53:49.763945 [hotstuff info] 1.803722
+2022-01-13 02:53:49.764024 [hotstuff info] 1.803711
+2022-01-13 02:53:49.764117 [hotstuff info] 1.803711
+2022-01-13 02:53:49.764202 [hotstuff info] 1.803707
+2022-01-13 02:53:51.133895 [hotstuff info] 1.786634
+2022-01-13 02:53:51.134099 [hotstuff info] 1.786729
+2022-01-13 02:53:51.134171 [hotstuff info] 1.786697
+2022-01-13 02:53:51.134226 [hotstuff info] 1.786664
+2022-01-13 02:53:51.134290 [hotstuff info] 1.786613
+2022-01-13 02:53:51.134344 [hotstuff info] 1.786584
+2022-01-13 02:53:51.136396 [hotstuff info] 1.788537
+2022-01-13 02:53:51.136545 [hotstuff info] 1.788601
+2022-01-13 02:53:51.136613 [hotstuff info] 1.788570
+2022-01-13 02:53:51.136665 [hotstuff info] 1.788536
+2022-01-13 02:53:51.136724 [hotstuff info] 1.788499
+2022-01-13 02:53:51.136769 [hotstuff info] 1.788462
+2022-01-13 02:53:51.136826 [hotstuff info] 1.788418
+2022-01-13 02:53:51.136884 [hotstuff info] 1.788390
+2022-01-13 02:53:51.136943 [hotstuff info] 1.788351
+2022-01-13 02:53:51.136993 [hotstuff info] 1.788317
+2022-01-13 02:53:51.137052 [hotstuff info] 1.788279
+2022-01-13 02:53:51.137101 [hotstuff info] 1.788249
+2022-01-13 02:53:51.137160 [hotstuff info] 1.786330
+2022-01-13 02:53:51.137211 [hotstuff info] 1.786282
+2022-01-13 02:53:51.137268 [hotstuff info] 1.786245
+2022-01-13 02:53:51.137319 [hotstuff info] 1.786211
+2022-01-13 02:53:51.137376 [hotstuff info] 1.786169
+2022-01-13 02:53:51.137425 [hotstuff info] 1.786135
+2022-01-13 02:53:51.137480 [hotstuff info] 1.786094
+2022-01-13 02:53:51.137528 [hotstuff info] 1.786056
+2022-01-13 02:53:51.137585 [hotstuff info] 1.786018
+2022-01-13 02:53:51.137631 [hotstuff info] 1.785965
+2022-01-13 02:53:51.137688 [hotstuff info] 1.785925
+2022-01-13 02:53:51.137735 [hotstuff info] 1.785891
+2022-01-13 02:53:51.137798 [hotstuff info] 1.785857
+2022-01-13 02:53:51.181245 [hotstuff info] 1.791513
+2022-01-13 02:53:51.184953 [hotstuff info] 1.795075
+2022-01-13 02:53:51.185109 [hotstuff info] 1.793073
+2022-01-13 02:53:51.185186 [hotstuff info] 1.793054
+2022-01-13 02:53:51.185241 [hotstuff info] 1.791827
+2022-01-13 02:53:51.185311 [hotstuff info] 1.791690
+2022-01-13 02:53:51.185365 [hotstuff info] 1.791543
+2022-01-13 02:53:51.185428 [hotstuff info] 1.791376
+2022-01-13 02:53:51.185485 [hotstuff info] 1.791307
+2022-01-13 02:53:51.185544 [hotstuff info] 1.789723
+2022-01-13 02:53:51.185597 [hotstuff info] 1.789693
+2022-01-13 02:53:51.185662 [hotstuff info] 1.789680
+2022-01-13 02:53:51.185715 [hotstuff info] 1.789663
+2022-01-13 02:53:51.185785 [hotstuff info] 1.789641
+2022-01-13 02:53:51.185844 [hotstuff info] 1.789654
+2022-01-13 02:53:51.185907 [hotstuff info] 1.789656
+2022-01-13 02:53:51.185954 [hotstuff info] 1.789647
+2022-01-13 02:53:51.186011 [hotstuff info] 1.789644
+2022-01-13 02:53:51.186074 [hotstuff info] 1.789525
+2022-01-13 02:53:51.186131 [hotstuff info] 1.789522
+2022-01-13 02:53:51.186191 [hotstuff info] 1.787552
+2022-01-13 02:53:51.186258 [hotstuff info] 1.787508
+2022-01-13 02:53:51.186315 [hotstuff info] 1.787449
+2022-01-13 02:53:51.186381 [hotstuff info] 1.787436
+2022-01-13 02:53:51.186437 [hotstuff info] 1.787436
+2022-01-13 02:53:51.186505 [hotstuff info] 1.787428
+2022-01-13 02:53:51.186565 [hotstuff info] 1.787389
+2022-01-13 02:53:51.186635 [hotstuff info] 1.787369
+2022-01-13 02:53:51.186693 [hotstuff info] 1.787351
+2022-01-13 02:53:51.186763 [hotstuff info] 1.787339
+2022-01-13 02:53:51.186824 [hotstuff info] 1.787345
+2022-01-13 02:53:51.186897 [hotstuff info] 1.787361
+2022-01-13 02:53:51.186956 [hotstuff info] 1.787366
+2022-01-13 02:53:51.187022 [hotstuff info] 1.787349
+2022-01-13 02:53:51.187080 [hotstuff info] 1.787333
+2022-01-13 02:53:51.187141 [hotstuff info] 1.787279
+2022-01-13 02:53:51.491383 [hotstuff info] 1.787734
+2022-01-13 02:53:51.491552 [hotstuff info] 1.787795
+2022-01-13 02:53:51.491614 [hotstuff info] 1.787767
+2022-01-13 02:53:51.491672 [hotstuff info] 1.787733
+2022-01-13 02:53:51.491721 [hotstuff info] 1.787698
+2022-01-13 02:53:51.491778 [hotstuff info] 1.787666
+2022-01-13 02:53:51.491828 [hotstuff info] 1.787636
+2022-01-13 02:53:51.491884 [hotstuff info] 1.787601
+2022-01-13 02:53:51.491933 [hotstuff info] 1.787566
+2022-01-13 02:53:51.491989 [hotstuff info] 1.787526
+2022-01-13 02:53:51.492037 [hotstuff info] 1.787496
+2022-01-13 02:53:51.492094 [hotstuff info] 1.787464
+2022-01-13 02:53:51.492137 [hotstuff info] 1.787429
+2022-01-13 02:53:51.492200 [hotstuff info] 1.787400
+2022-01-13 02:53:51.492262 [hotstuff info] 1.787383
+2022-01-13 02:53:51.492317 [hotstuff info] 1.787347
+2022-01-13 02:53:51.492364 [hotstuff info] 1.787312
+2022-01-13 02:53:51.492419 [hotstuff info] 1.787275
+2022-01-13 02:53:51.492476 [hotstuff info] 1.787251
+2022-01-13 02:53:51.492564 [hotstuff info] 1.787244
+2022-01-13 02:53:51.492644 [hotstuff info] 1.787239
+2022-01-13 02:53:51.492734 [hotstuff info] 1.787234
+2022-01-13 02:53:51.492809 [hotstuff info] 1.787223
+2022-01-13 02:53:51.492896 [hotstuff info] 1.787217
+2022-01-13 02:53:51.492975 [hotstuff info] 1.787215
+2022-01-13 02:53:51.493062 [hotstuff info] 1.787211
+2022-01-13 02:53:51.493140 [hotstuff info] 1.787201
+2022-01-13 02:53:51.493230 [hotstuff info] 1.787192
+2022-01-13 02:53:51.493310 [hotstuff info] 1.787188
+2022-01-13 02:53:51.493396 [hotstuff info] 1.787183
+2022-01-13 02:53:51.493475 [hotstuff info] 1.787179
+2022-01-13 02:53:51.493561 [hotstuff info] 1.787169
+2022-01-13 02:53:51.493641 [hotstuff info] 1.787164
+2022-01-13 02:53:51.493733 [hotstuff info] 1.787165
+2022-01-13 02:53:51.493818 [hotstuff info] 1.787166
+2022-01-13 02:53:51.493907 [hotstuff info] 1.787164
+2022-01-13 02:53:51.493991 [hotstuff info] 1.787165
+2022-01-13 02:53:51.494087 [hotstuff info] 1.787163
+2022-01-13 02:53:51.494176 [hotstuff info] 1.783075
+2022-01-13 02:53:51.533185 [hotstuff info] 1.821992
+2022-01-13 02:53:51.533407 [hotstuff info] 1.822131
+2022-01-13 02:53:51.536543 [hotstuff info] 1.790184
+2022-01-13 02:53:51.538105 [hotstuff info] 1.791667
+2022-01-13 02:53:51.538317 [hotstuff info] 1.791815
+2022-01-13 02:53:51.539748 [hotstuff info] 1.793133
+2022-01-13 02:53:51.539986 [hotstuff info] 1.793287
+2022-01-13 02:53:51.540073 [hotstuff info] 1.793308
+2022-01-13 02:53:51.540171 [hotstuff info] 1.789797
+2022-01-13 02:53:51.540256 [hotstuff info] 1.787846
+2022-01-13 02:53:51.540349 [hotstuff info] 1.787814
+2022-01-13 02:53:51.540433 [hotstuff info] 1.787591
+2022-01-13 02:53:51.540530 [hotstuff info] 1.787505
+2022-01-13 02:53:51.540624 [hotstuff info] 1.787526
+2022-01-13 02:53:51.540725 [hotstuff info] 1.787544
+2022-01-13 02:53:51.540817 [hotstuff info] 1.787560
+2022-01-13 02:53:51.540912 [hotstuff info] 1.787568
+2022-01-13 02:53:51.540995 [hotstuff info] 1.787575
+2022-01-13 02:53:51.541083 [hotstuff info] 1.787576
+2022-01-13 02:53:51.541166 [hotstuff info] 1.787587
+2022-01-13 02:53:51.541227 [hotstuff info] 1.787564
+2022-01-13 02:53:51.541275 [hotstuff info] 1.787537
+2022-01-13 02:53:51.541335 [hotstuff info] 1.787512
+2022-01-13 02:53:51.541383 [hotstuff info] 1.787485
+2022-01-13 02:53:51.541441 [hotstuff info] 1.787448
+2022-01-13 02:53:51.541488 [hotstuff info] 1.787417
+2022-01-13 02:53:51.541547 [hotstuff info] 1.787386
+2022-01-13 02:53:51.541597 [hotstuff info] 1.787356
+2022-01-13 02:53:51.541655 [hotstuff info] 1.787322
+2022-01-13 02:53:51.541705 [hotstuff info] 1.787294
+2022-01-13 02:53:51.541764 [hotstuff info] 1.787262
+2022-01-13 02:53:51.541812 [hotstuff info] 1.787232
+2022-01-13 02:53:51.541871 [hotstuff info] 1.787185
+2022-01-13 02:53:51.541922 [hotstuff info] 1.787124
+2022-01-13 02:53:51.541981 [hotstuff info] 1.787088
+2022-01-13 02:53:51.542031 [hotstuff info] 1.786884
+2022-01-13 02:53:51.542088 [hotstuff info] 1.786852
+2022-01-13 02:53:51.542137 [hotstuff info] 1.786823
+2022-01-13 02:53:51.542194 [hotstuff info] 1.786789
+2022-01-13 02:53:51.542244 [hotstuff info] 1.786759
+2022-01-13 02:53:51.843770 [hotstuff info] 2.083850
+2022-01-13 02:53:51.843979 [hotstuff info] 2.083982
+2022-01-13 02:53:51.844081 [hotstuff info] 2.083955
+2022-01-13 02:53:51.846346 [hotstuff info] 2.086055
+2022-01-13 02:53:51.846581 [hotstuff info] 2.086199
+2022-01-13 02:53:51.846689 [hotstuff info] 2.086223
+2022-01-13 02:53:51.846791 [hotstuff info] 2.086209
+2022-01-13 02:53:51.846888 [hotstuff info] 2.084524
+2022-01-13 02:53:51.846994 [hotstuff info] 2.084516
+2022-01-13 02:53:51.847075 [hotstuff info] 2.084509
+2022-01-13 02:53:51.847175 [hotstuff info] 2.084513
+2022-01-13 02:53:51.847253 [hotstuff info] 2.084505
+2022-01-13 02:53:51.847354 [hotstuff info] 2.084515
+2022-01-13 02:53:51.847439 [hotstuff info] 2.084513
+2022-01-13 02:53:51.847532 [hotstuff info] 2.084508
+2022-01-13 02:53:51.847634 [hotstuff info] 2.084523
+2022-01-13 02:53:51.847734 [hotstuff info] 2.084528
+2022-01-13 02:53:51.847822 [hotstuff info] 2.084527
+2022-01-13 02:53:51.847920 [hotstuff info] 2.084526
+2022-01-13 02:53:51.848007 [hotstuff info] 2.084530
+2022-01-13 02:53:51.848103 [hotstuff info] 2.084533
+2022-01-13 02:53:51.848187 [hotstuff info] 2.084517
+2022-01-13 02:53:51.848285 [hotstuff info] 2.084520
+2022-01-13 02:53:51.848367 [hotstuff info] 2.084518
+2022-01-13 02:53:51.848462 [hotstuff info] 2.084518
+2022-01-13 02:53:51.848547 [hotstuff info] 2.084526
+2022-01-13 02:53:51.848646 [hotstuff info] 2.084531
+2022-01-13 02:53:51.848732 [hotstuff info] 2.084532
+2022-01-13 02:53:51.848827 [hotstuff info] 2.084530
+2022-01-13 02:53:53.268680 [hotstuff info] 2.134583
+2022-01-13 02:53:53.268917 [hotstuff info] 2.134748
+2022-01-13 02:53:53.269002 [hotstuff info] 2.134777
+2022-01-13 02:53:53.269100 [hotstuff info] 2.134811
+2022-01-13 02:53:53.269171 [hotstuff info] 2.134828
+2022-01-13 02:53:53.269242 [hotstuff info] 2.134837
+2022-01-13 02:53:53.271037 [hotstuff info] 2.134493
+2022-01-13 02:53:53.271231 [hotstuff info] 2.134619
+2022-01-13 02:53:53.271294 [hotstuff info] 2.134631
+2022-01-13 02:53:53.271363 [hotstuff info] 2.134641
+2022-01-13 02:53:53.271430 [hotstuff info] 2.134663
+2022-01-13 02:53:53.271504 [hotstuff info] 2.134679
+2022-01-13 02:53:53.271559 [hotstuff info] 2.134676
+2022-01-13 02:53:53.271648 [hotstuff info] 2.134706
+2022-01-13 02:53:53.271731 [hotstuff info] 2.134740
+2022-01-13 02:53:53.271823 [hotstuff info] 2.134773
+2022-01-13 02:53:53.271912 [hotstuff info] 2.134812
+2022-01-13 02:53:53.272005 [hotstuff info] 2.134845
+2022-01-13 02:53:53.272092 [hotstuff info] 2.134882
+2022-01-13 02:53:53.272193 [hotstuff info] 2.134925
+2022-01-13 02:53:53.272282 [hotstuff info] 2.134964
+2022-01-13 02:53:53.272381 [hotstuff info] 2.135006
+2022-01-13 02:53:53.272476 [hotstuff info] 2.135052
+2022-01-13 02:53:53.272575 [hotstuff info] 2.135095
+2022-01-13 02:53:53.272667 [hotstuff info] 2.135139
+2022-01-13 02:53:53.272770 [hotstuff info] 2.135186
+2022-01-13 02:53:53.272865 [hotstuff info] 2.135234
+2022-01-13 02:53:53.272957 [hotstuff info] 2.135270
+2022-01-13 02:53:53.273049 [hotstuff info] 2.135315
+2022-01-13 02:53:53.273145 [hotstuff info] 2.135349
+2022-01-13 02:53:53.273234 [hotstuff info] 2.135389
+2022-01-13 02:53:53.273360 [hotstuff info] 2.091761
+2022-01-13 02:53:53.273450 [hotstuff info] 2.088344
+2022-01-13 02:53:53.318620 [hotstuff info] 2.133434
+2022-01-13 02:53:53.318788 [hotstuff info] 2.133548
+2022-01-13 02:53:53.320448 [hotstuff info] 2.135138
+2022-01-13 02:53:53.320620 [hotstuff info] 2.135256
+2022-01-13 02:53:53.320717 [hotstuff info] 2.135290
+2022-01-13 02:53:53.665841 [hotstuff info] 2.480359
+2022-01-13 02:53:53.666059 [hotstuff info] 2.480516
+2022-01-13 02:53:53.666145 [hotstuff info] 2.480550
+2022-01-13 02:53:53.666243 [hotstuff info] 2.480582
+2022-01-13 02:53:53.666333 [hotstuff info] 2.480618
+2022-01-13 02:53:53.666426 [hotstuff info] 2.480642
+2022-01-13 02:53:53.666515 [hotstuff info] 2.480672
+2022-01-13 02:53:53.666604 [hotstuff info] 2.480698
+2022-01-13 02:53:53.666693 [hotstuff info] 2.480740
+2022-01-13 02:53:53.666785 [hotstuff info] 2.480774
+2022-01-13 02:53:53.666877 [hotstuff info] 2.480804
+2022-01-13 02:53:53.666976 [hotstuff info] 2.480845
+2022-01-13 02:53:53.667057 [hotstuff info] 2.480868
+2022-01-13 02:53:53.667155 [hotstuff info] 2.480898
+2022-01-13 02:53:53.667241 [hotstuff info] 2.480927
+2022-01-13 02:53:53.667343 [hotstuff info] 2.480964
+2022-01-13 02:53:53.667423 [hotstuff info] 2.480987
+2022-01-13 02:53:53.667512 [hotstuff info] 2.481008
+2022-01-13 02:53:53.667597 [hotstuff info] 2.481034
+2022-01-13 02:53:53.667708 [hotstuff info] 2.481074
+2022-01-13 02:53:53.667790 [hotstuff info] 2.481099
+2022-01-13 02:53:53.667930 [hotstuff info] 2.481168
+2022-01-13 02:53:53.668014 [hotstuff info] 2.481191
+2022-01-13 02:53:53.668108 [hotstuff info] 2.481212
+2022-01-13 02:53:53.668192 [hotstuff info] 2.481236
+2022-01-13 02:53:53.668284 [hotstuff info] 2.481263
+2022-01-13 02:53:53.668373 [hotstuff info] 2.481294
+2022-01-13 02:53:53.668464 [hotstuff info] 2.481324
+2022-01-13 02:53:53.668542 [hotstuff info] 2.481352
+2022-01-13 02:53:53.673009 [hotstuff info] 2.181458
+2022-01-13 02:53:53.673247 [hotstuff info] 2.181633
+2022-01-13 02:53:53.673346 [hotstuff info] 2.181675
+2022-01-13 02:53:53.673431 [hotstuff info] 2.181711
+2022-01-13 02:53:53.673523 [hotstuff info] 2.181745
+2022-01-13 02:53:53.673609 [hotstuff info] 2.181782
+2022-01-13 02:53:53.673702 [hotstuff info] 2.181818
+2022-01-13 02:53:53.673784 [hotstuff info] 2.181852
+2022-01-13 02:53:53.673876 [hotstuff info] 2.181888
+2022-01-13 02:53:53.673959 [hotstuff info] 2.181923
+2022-01-13 02:53:53.674050 [hotstuff info] 2.181957
+2022-01-13 02:53:53.674133 [hotstuff info] 2.181997
+2022-01-13 02:53:53.674224 [hotstuff info] 2.182025
+2022-01-13 02:53:53.674305 [hotstuff info] 2.182045
+2022-01-13 02:53:53.674397 [hotstuff info] 2.182081
+2022-01-13 02:53:53.674484 [hotstuff info] 2.182120
+2022-01-13 02:53:53.674583 [hotstuff info] 2.182165
+2022-01-13 02:53:53.674668 [hotstuff info] 2.182193
+2022-01-13 02:53:53.674765 [hotstuff info] 2.182202
+2022-01-13 02:53:53.674852 [hotstuff info] 2.182209
+2022-01-13 02:53:53.674954 [hotstuff info] 2.182221
+2022-01-13 02:53:53.675120 [hotstuff info] 2.182312
+2022-01-13 02:53:53.675333 [hotstuff info] 2.182438
+2022-01-13 02:53:53.675432 [hotstuff info] 2.182459
+2022-01-13 02:53:53.675566 [hotstuff info] 2.182505
+2022-01-13 02:53:53.675679 [hotstuff info] 2.182540
+2022-01-13 02:53:53.675809 [hotstuff info] 2.182580
+2022-01-13 02:53:53.675906 [hotstuff info] 2.182597
+2022-01-13 02:53:53.676002 [hotstuff info] 2.182607
+2022-01-13 02:53:53.676095 [hotstuff info] 2.182621
+2022-01-13 02:53:53.676191 [hotstuff info] 2.182631
+2022-01-13 02:53:53.676282 [hotstuff info] 2.182642
+2022-01-13 02:53:53.676376 [hotstuff info] 2.182643
+2022-01-13 02:53:53.676474 [hotstuff info] 2.182657
+2022-01-13 02:53:53.676597 [hotstuff info] 2.182691
+2022-01-13 02:53:53.676693 [hotstuff info] 2.182704
+2022-01-13 02:53:53.676789 [hotstuff info] 2.182704
+2022-01-13 02:53:53.676928 [hotstuff info] 2.182753
+2022-01-13 02:53:53.677033 [hotstuff info] 2.182762
+2022-01-13 02:53:53.677118 [hotstuff info] 2.143714
+2022-01-13 02:53:53.677217 [hotstuff info] 2.143710
+2022-01-13 02:53:53.677300 [hotstuff info] 2.140576
+2022-01-13 02:53:53.677400 [hotstuff info] 2.139084
+2022-01-13 02:53:53.677487 [hotstuff info] 2.139068
+2022-01-13 02:53:54.024587 [hotstuff info] 2.484603
+2022-01-13 02:53:54.024903 [hotstuff info] 2.484831
+2022-01-13 02:53:54.025119 [hotstuff info] 2.484950
+2022-01-13 02:53:54.025220 [hotstuff info] 2.484968
+2022-01-13 02:53:54.025473 [hotstuff info] 2.485125
+2022-01-13 02:53:54.025617 [hotstuff info] 2.485178
+2022-01-13 02:53:54.025768 [hotstuff info] 2.485240
+2022-01-13 02:53:54.025907 [hotstuff info] 2.485284
+2022-01-13 02:53:54.026048 [hotstuff info] 2.485324
+2022-01-13 02:53:54.026180 [hotstuff info] 2.485364
+2022-01-13 02:53:54.026349 [hotstuff info] 2.485438
+2022-01-13 02:53:54.026486 [hotstuff info] 2.485492
+2022-01-13 02:53:54.026631 [hotstuff info] 2.485549
+2022-01-13 02:53:54.026766 [hotstuff info] 2.485601
+2022-01-13 02:53:54.026965 [hotstuff info] 2.485739
+2022-01-13 02:53:54.027099 [hotstuff info] 2.485824
+2022-01-13 02:53:54.027231 [hotstuff info] 2.485897
+2022-01-13 02:53:54.027368 [hotstuff info] 2.485985
+2022-01-13 02:53:54.027494 [hotstuff info] 2.486054
+2022-01-13 02:53:54.027684 [hotstuff info] 2.486196
+2022-01-13 02:53:54.027867 [hotstuff info] 2.486321
+2022-01-13 02:53:54.028007 [hotstuff info] 2.486411
+2022-01-13 02:53:54.028127 [hotstuff info] 2.486473
+2022-01-13 02:53:54.028274 [hotstuff info] 2.486571
+2022-01-13 02:53:54.028405 [hotstuff info] 2.486642
+2022-01-13 02:53:54.028529 [hotstuff info] 2.486717
+2022-01-13 02:53:54.028616 [hotstuff info] 2.486747
+2022-01-13 02:53:54.028739 [hotstuff info] 2.486818
+2022-01-13 02:53:54.028833 [hotstuff info] 2.486854
+2022-01-13 02:53:54.028911 [hotstuff info] 2.486882
+2022-01-13 02:53:54.028990 [hotstuff info] 2.486903
+2022-01-13 02:53:54.029044 [hotstuff info] 2.486908
+2022-01-13 02:53:54.029118 [hotstuff info] 2.486926
+2022-01-13 02:53:54.029192 [hotstuff info] 2.486950
+2022-01-13 02:53:54.029252 [hotstuff info] 2.486947
+2022-01-13 02:53:54.029336 [hotstuff info] 2.185359
+2022-01-13 02:53:54.033788 [hotstuff info] 2.189710
+2022-01-13 02:53:54.034036 [hotstuff info] 2.189903
+2022-01-13 02:53:54.034450 [hotstuff info] 2.187872
+2022-01-13 02:53:54.034733 [hotstuff info] 2.188045
+2022-01-13 02:53:54.034801 [hotstuff info] 2.188011
+2022-01-13 02:53:54.034879 [hotstuff info] 2.187992
+2022-01-13 02:53:54.034969 [hotstuff info] 2.187978
+2022-01-13 02:53:54.035049 [hotstuff info] 2.187976
+2022-01-13 02:53:54.035128 [hotstuff info] 2.187955
+2022-01-13 02:53:54.035240 [hotstuff info] 2.187988
+2022-01-13 02:53:54.035432 [hotstuff info] 2.188080
+2022-01-13 02:53:54.035520 [hotstuff info] 2.188083
+2022-01-13 02:53:54.035659 [hotstuff info] 2.188128
+2022-01-13 02:53:54.035767 [hotstuff info] 2.188135
+2022-01-13 02:53:54.035902 [hotstuff info] 2.188171
+2022-01-13 02:53:54.036018 [hotstuff info] 2.188197
+2022-01-13 02:53:54.036115 [hotstuff info] 2.188198
+2022-01-13 02:53:54.036210 [hotstuff info] 2.188204
+2022-01-13 02:53:54.036392 [hotstuff info] 2.188291
+2022-01-13 02:53:54.036520 [hotstuff info] 2.188335
+2022-01-13 02:53:54.036657 [hotstuff info] 2.188373
+2022-01-13 02:53:54.036814 [hotstuff info] 2.188448
+2022-01-13 02:53:54.036938 [hotstuff info] 2.188479
+2022-01-13 02:53:54.037031 [hotstuff info] 2.188485
+2022-01-13 02:53:54.037165 [hotstuff info] 2.188520
+2022-01-13 02:53:54.037269 [hotstuff info] 2.188538
+2022-01-13 02:53:54.037433 [hotstuff info] 2.188608
+2022-01-13 02:53:54.037564 [hotstuff info] 2.188660
+2022-01-13 02:53:55.116083 [hotstuff info] 1.847169
+2022-01-13 02:53:55.116363 [hotstuff info] 1.847362
+2022-01-13 02:53:55.116456 [hotstuff info] 1.847384
+2022-01-13 02:53:55.116531 [hotstuff info] 1.847362
+2022-01-13 02:53:55.116612 [hotstuff info] 1.847373
+2022-01-13 02:53:55.116667 [hotstuff info] 1.847367
+2022-01-13 02:53:55.116855 [hotstuff info] 1.845626
+2022-01-13 02:53:55.116921 [hotstuff info] 1.845626
+2022-01-13 02:53:55.116998 [hotstuff info] 1.845637
+2022-01-13 02:53:55.117063 [hotstuff info] 1.845635
+2022-01-13 02:53:55.117135 [hotstuff info] 1.845632
+2022-01-13 02:53:55.117198 [hotstuff info] 1.845640
+2022-01-13 02:53:55.117267 [hotstuff info] 1.845620
+2022-01-13 02:53:55.117329 [hotstuff info] 1.845600
+2022-01-13 02:53:55.117391 [hotstuff info] 1.845570
+2022-01-13 02:53:55.117451 [hotstuff info] 1.845541
+2022-01-13 02:53:55.117524 [hotstuff info] 1.845520
+2022-01-13 02:53:55.117580 [hotstuff info] 1.845489
+2022-01-13 02:53:55.117687 [hotstuff info] 1.845496
+2022-01-13 02:53:55.117747 [hotstuff info] 1.845467
+2022-01-13 02:53:55.117807 [hotstuff info] 1.845427
+2022-01-13 02:53:55.117885 [hotstuff info] 1.845411
+2022-01-13 02:53:55.117951 [hotstuff info] 1.845378
+2022-01-13 02:53:55.118011 [hotstuff info] 1.845347
+2022-01-13 02:53:55.118084 [hotstuff info] 1.845316
+2022-01-13 02:53:55.118142 [hotstuff info] 1.845292
+2022-01-13 02:53:55.118207 [hotstuff info] 1.845252
+2022-01-13 02:53:55.118271 [hotstuff info] 1.845222
+2022-01-13 02:53:55.118347 [hotstuff info] 1.845203
+2022-01-13 02:53:55.118409 [hotstuff info] 1.845177
+2022-01-13 02:53:55.118478 [hotstuff info] 1.845145
+2022-01-13 02:53:55.118533 [hotstuff info] 1.845085
+2022-01-13 02:53:55.118598 [hotstuff info] 1.845052
+2022-01-13 02:53:55.473014 [hotstuff info] 2.154228
+2022-01-13 02:53:55.473353 [hotstuff info] 2.154475
+2022-01-13 02:53:55.474342 [hotstuff info] 2.153723
+2022-01-13 02:53:55.474524 [hotstuff info] 2.153808
+2022-01-13 02:53:55.474622 [hotstuff info] 2.153838
+2022-01-13 02:53:55.476689 [hotstuff info] 1.810633
+2022-01-13 02:53:55.476938 [hotstuff info] 1.810794
+2022-01-13 02:53:55.477033 [hotstuff info] 1.810798
+2022-01-13 02:53:55.477125 [hotstuff info] 1.810794
+2022-01-13 02:53:55.477218 [hotstuff info] 1.810793
+2022-01-13 02:53:55.477310 [hotstuff info] 1.810797
+2022-01-13 02:53:55.477410 [hotstuff info] 1.810808
+2022-01-13 02:53:55.477501 [hotstuff info] 1.810810
+2022-01-13 02:53:55.477595 [hotstuff info] 1.810811
+2022-01-13 02:53:55.477680 [hotstuff info] 1.810805
+2022-01-13 02:53:55.477780 [hotstuff info] 1.810806
+2022-01-13 02:53:55.477871 [hotstuff info] 1.810816
+2022-01-13 02:53:55.478005 [hotstuff info] 1.810851
+2022-01-13 02:53:55.478336 [hotstuff info] 1.811096
+2022-01-13 02:53:55.481424 [hotstuff info] 1.814082
+2022-01-13 02:53:55.522816 [hotstuff info] 1.855394
+2022-01-13 02:53:55.523036 [hotstuff info] 1.855525
+2022-01-13 02:53:55.523141 [hotstuff info] 1.855546
+2022-01-13 02:53:55.523240 [hotstuff info] 1.855534
+2022-01-13 02:53:55.523327 [hotstuff info] 1.855538
+2022-01-13 02:53:55.523427 [hotstuff info] 1.855548
+2022-01-13 02:53:55.523511 [hotstuff info] 1.855498
+2022-01-13 02:53:55.523621 [hotstuff info] 1.855514
+2022-01-13 02:53:55.523705 [hotstuff info] 1.855516
+2022-01-13 02:53:55.523800 [hotstuff info] 1.855517
+2022-01-13 02:53:55.523880 [hotstuff info] 1.855508
+2022-01-13 02:53:55.523982 [hotstuff info] 1.855518
+2022-01-13 02:53:55.524065 [hotstuff info] 1.855524
+2022-01-13 02:53:55.524161 [hotstuff info] 1.855530
+2022-01-13 02:53:55.525866 [hotstuff info] 1.852621
+2022-01-13 02:53:55.526039 [hotstuff info] 1.852695
+2022-01-13 02:53:55.526125 [hotstuff info] 1.852695
+2022-01-13 02:53:55.526233 [hotstuff info] 1.852711
+2022-01-13 02:53:55.526326 [hotstuff info] 1.852718
+2022-01-13 02:53:55.526425 [hotstuff info] 1.852725
+2022-01-13 02:53:55.526509 [hotstuff info] 1.852728
+2022-01-13 02:53:55.526606 [hotstuff info] 1.852733
+2022-01-13 02:53:55.526693 [hotstuff info] 1.852736
+2022-01-13 02:53:55.526795 [hotstuff info] 1.852747
+2022-01-13 02:53:55.526896 [hotstuff info] 1.852764
+2022-01-13 02:53:55.526993 [hotstuff info] 1.852771
+2022-01-13 02:53:55.527075 [hotstuff info] 1.852771
+2022-01-13 02:53:55.527170 [hotstuff info] 1.852774
+2022-01-13 02:53:55.527254 [hotstuff info] 1.852772
+2022-01-13 02:53:55.527349 [hotstuff info] 1.852768
+2022-01-13 02:53:55.527435 [hotstuff info] 1.852768
+2022-01-13 02:53:55.527531 [hotstuff info] 1.852768
+2022-01-13 02:53:55.527633 [hotstuff info] 1.852783
+2022-01-13 02:53:55.527729 [hotstuff info] 1.852777
+2022-01-13 02:53:55.527819 [hotstuff info] 1.852777
+2022-01-13 02:53:55.527919 [hotstuff info] 1.852688
+2022-01-13 02:53:55.528010 [hotstuff info] 1.852580
+2022-01-13 02:53:55.528109 [hotstuff info] 1.852576
+2022-01-13 02:53:55.528200 [hotstuff info] 1.852523
+2022-01-13 02:53:55.528300 [hotstuff info] 1.852522
+2022-01-13 02:53:55.528387 [hotstuff info] 1.852482
+2022-01-13 02:53:55.528486 [hotstuff info] 1.852487
+2022-01-13 02:53:55.528570 [hotstuff info] 1.852476
+2022-01-13 02:53:55.575119 [hotstuff info] 1.898930
+2022-01-13 02:53:55.575324 [hotstuff info] 1.899045
+2022-01-13 02:53:55.575413 [hotstuff info] 1.899039
+2022-01-13 02:53:55.575501 [hotstuff info] 1.899028
+2022-01-13 02:53:55.575572 [hotstuff info] 1.899000
+2022-01-13 02:53:55.575672 [hotstuff info] 1.898980
+2022-01-13 02:53:55.575749 [hotstuff info] 1.898962
+2022-01-13 02:53:55.575807 [hotstuff info] 1.898921
+2022-01-13 02:53:55.575866 [hotstuff info] 1.898835
+2022-01-13 02:53:55.575921 [hotstuff info] 1.898805
+2022-01-13 02:53:55.575997 [hotstuff info] 1.898781
+2022-01-13 02:53:55.576053 [hotstuff info] 1.898755
+2022-01-13 02:53:55.576124 [hotstuff info] 1.898726
+2022-01-13 02:53:55.576191 [hotstuff info] 1.898706
+2022-01-13 02:53:55.576264 [hotstuff info] 1.898679
+2022-01-13 02:53:55.582187 [hotstuff info] 1.557286
+2022-01-13 02:53:55.582404 [hotstuff info] 1.557287
+2022-01-13 02:53:55.582492 [hotstuff info] 1.557273
+2022-01-13 02:53:55.582686 [hotstuff info] 1.557214
+2022-01-13 02:53:55.582769 [hotstuff info] 1.557162
+2022-01-13 02:53:55.582860 [hotstuff info] 1.557094
+2022-01-13 02:53:55.582941 [hotstuff info] 1.557035
+2022-01-13 02:53:55.583034 [hotstuff info] 1.556988
+2022-01-13 02:53:55.583115 [hotstuff info] 1.556936
+2022-01-13 02:53:55.583205 [hotstuff info] 1.556858
+2022-01-13 02:53:55.583409 [hotstuff info] 1.556924
+2022-01-13 02:53:55.583511 [hotstuff info] 1.556882
+2022-01-13 02:53:55.583600 [hotstuff info] 1.556835
+2022-01-13 02:53:55.583725 [hotstuff info] 1.556761
+2022-01-13 02:53:55.583816 [hotstuff info] 1.556719
+2022-01-13 02:53:55.583912 [hotstuff info] 1.556683
+2022-01-13 02:53:55.584001 [hotstuff info] 1.556635
+2022-01-13 02:53:55.584102 [hotstuff info] 1.556609
+2022-01-13 02:53:55.584199 [hotstuff info] 1.556516
+2022-01-13 02:53:55.584308 [hotstuff info] 1.556442
+2022-01-13 02:53:55.584408 [hotstuff info] 1.556402
+2022-01-13 02:53:55.584517 [hotstuff info] 1.556391
+2022-01-13 02:53:55.584613 [hotstuff info] 1.556341
+2022-01-13 02:53:55.584718 [hotstuff info] 1.556314
+2022-01-13 02:53:55.584813 [hotstuff info] 1.556285
+2022-01-13 02:53:55.584916 [hotstuff info] 1.556301
+2022-01-13 02:53:55.585004 [hotstuff info] 1.556322
+2022-01-13 02:53:55.585095 [hotstuff info] 1.556262
+2022-01-13 02:53:55.585175 [hotstuff info] 1.556265
+2022-01-13 02:53:55.585264 [hotstuff info] 1.556275
+2022-01-13 02:53:55.585346 [hotstuff info] 1.556304
+2022-01-13 02:53:55.585439 [hotstuff info] 1.556321
+2022-01-13 02:53:55.585521 [hotstuff info] 1.556329
+2022-01-13 02:53:55.585611 [hotstuff info] 1.556360
+2022-01-13 02:53:55.585694 [hotstuff info] 1.556366
+2022-01-13 02:53:55.585778 [hotstuff info] 1.556383
+2022-01-13 02:53:55.585944 [hotstuff info] 1.551909
+2022-01-13 02:53:55.586045 [hotstuff info] 1.551908
+2022-01-13 02:53:55.586124 [hotstuff info] 1.551513
+2022-01-13 02:53:55.586222 [hotstuff info] 1.551423
+2022-01-13 02:53:55.586309 [hotstuff info] 1.551431
+2022-01-13 02:53:55.586405 [hotstuff info] 1.551437
+2022-01-13 02:53:55.586495 [hotstuff info] 1.551446
+2022-01-13 02:53:55.586602 [hotstuff info] 1.551475
+2022-01-13 02:53:55.586695 [hotstuff info] 1.551457
+2022-01-13 02:53:55.586797 [hotstuff info] 1.551366
+2022-01-13 02:53:55.586894 [hotstuff info] 1.551376
+2022-01-13 02:53:55.586998 [hotstuff info] 1.551340
+2022-01-13 02:53:55.587095 [hotstuff info] 1.551329
+2022-01-13 02:53:55.829531 [hotstuff info] 1.793629
+2022-01-13 02:53:55.829826 [hotstuff info] 1.793809
+2022-01-13 02:53:55.830024 [hotstuff info] 1.793910
+2022-01-13 02:53:55.830205 [hotstuff info] 1.794003
+2022-01-13 02:53:55.830359 [hotstuff info] 1.793968
+2022-01-13 02:53:55.830508 [hotstuff info] 1.793988
+2022-01-13 02:53:55.830638 [hotstuff info] 1.793982
+2022-01-13 02:53:55.830778 [hotstuff info] 1.793966
+2022-01-13 02:53:55.830907 [hotstuff info] 1.793970
+2022-01-13 02:53:55.831043 [hotstuff info] 1.794002
+2022-01-13 02:53:55.831160 [hotstuff info] 1.794004
+2022-01-13 02:53:55.831264 [hotstuff info] 1.793996
+2022-01-13 02:53:55.831462 [hotstuff info] 1.794031
+2022-01-13 02:53:55.831631 [hotstuff info] 1.794077
+2022-01-13 02:53:55.831801 [hotstuff info] 1.794107
+2022-01-13 02:53:56.368503 [net info] stopping all threads...

@@ -1,0 +1,83 @@
+[nodes_setup]
+18.116.237.201
+18.117.109.20
+18.118.119.165
+18.119.157.144
+18.188.106.88
+18.188.84.137
+18.216.62.93
+18.218.19.195
+18.220.92.180
+18.221.17.41
+18.222.253.0
+18.222.30.152
+18.222.59.211
+18.223.33.54
+18.224.59.223
+3.133.82.185
+3.134.86.163
+3.137.204.164
+3.142.219.149
+3.144.186.135
+3.144.74.42
+3.145.168.103
+3.145.172.217
+3.145.50.224
+3.145.96.59
+3.145.99.185
+3.15.226.119
+3.16.155.18
+3.16.216.123
+3.17.72.158
+3.20.239.152
+3.23.130.236
+
+[nodes]
+replica0 ansible_host=18.216.62.93 host_idx=0 extra_conf=hotstuff.gen-sec0.conf
+replica1 ansible_host=18.188.106.88 host_idx=0 extra_conf=hotstuff.gen-sec1.conf
+replica2 ansible_host=3.142.219.149 host_idx=0 extra_conf=hotstuff.gen-sec2.conf
+replica3 ansible_host=3.137.204.164 host_idx=0 extra_conf=hotstuff.gen-sec3.conf
+replica4 ansible_host=3.20.239.152 host_idx=0 extra_conf=hotstuff.gen-sec4.conf
+replica5 ansible_host=3.134.86.163 host_idx=0 extra_conf=hotstuff.gen-sec5.conf
+replica6 ansible_host=18.222.59.211 host_idx=0 extra_conf=hotstuff.gen-sec6.conf
+replica7 ansible_host=18.116.237.201 host_idx=0 extra_conf=hotstuff.gen-sec7.conf
+replica8 ansible_host=18.223.33.54 host_idx=0 extra_conf=hotstuff.gen-sec8.conf
+replica9 ansible_host=3.17.72.158 host_idx=0 extra_conf=hotstuff.gen-sec9.conf
+replica10 ansible_host=18.117.109.20 host_idx=0 extra_conf=hotstuff.gen-sec10.conf
+replica11 ansible_host=18.222.253.0 host_idx=0 extra_conf=hotstuff.gen-sec11.conf
+replica12 ansible_host=18.218.19.195 host_idx=0 extra_conf=hotstuff.gen-sec12.conf
+replica13 ansible_host=3.144.74.42 host_idx=0 extra_conf=hotstuff.gen-sec13.conf
+replica14 ansible_host=3.133.82.185 host_idx=0 extra_conf=hotstuff.gen-sec14.conf
+replica15 ansible_host=3.144.186.135 host_idx=0 extra_conf=hotstuff.gen-sec15.conf
+replica16 ansible_host=3.145.99.185 host_idx=0 extra_conf=hotstuff.gen-sec16.conf
+replica17 ansible_host=3.16.155.18 host_idx=0 extra_conf=hotstuff.gen-sec17.conf
+replica18 ansible_host=18.224.59.223 host_idx=0 extra_conf=hotstuff.gen-sec18.conf
+replica19 ansible_host=3.145.96.59 host_idx=0 extra_conf=hotstuff.gen-sec19.conf
+replica20 ansible_host=3.145.50.224 host_idx=0 extra_conf=hotstuff.gen-sec20.conf
+replica21 ansible_host=18.222.30.152 host_idx=0 extra_conf=hotstuff.gen-sec21.conf
+replica22 ansible_host=18.220.92.180 host_idx=0 extra_conf=hotstuff.gen-sec22.conf
+replica23 ansible_host=18.221.17.41 host_idx=0 extra_conf=hotstuff.gen-sec23.conf
+replica24 ansible_host=3.16.216.123 host_idx=0 extra_conf=hotstuff.gen-sec24.conf
+replica25 ansible_host=18.118.119.165 host_idx=0 extra_conf=hotstuff.gen-sec25.conf
+replica26 ansible_host=18.119.157.144 host_idx=0 extra_conf=hotstuff.gen-sec26.conf
+replica27 ansible_host=3.145.168.103 host_idx=0 extra_conf=hotstuff.gen-sec27.conf
+replica28 ansible_host=3.145.172.217 host_idx=0 extra_conf=hotstuff.gen-sec28.conf
+replica29 ansible_host=3.15.226.119 host_idx=0 extra_conf=hotstuff.gen-sec29.conf
+
+[clients]
+client0 ansible_host=18.188.84.137 host_idx=1 cid=0
+client1 ansible_host=18.188.84.137 host_idx=2 cid=1
+client2 ansible_host=18.188.84.137 host_idx=3 cid=2
+client3 ansible_host=18.188.84.137 host_idx=4 cid=3
+client4 ansible_host=18.188.84.137 host_idx=5 cid=4
+client5 ansible_host=18.188.84.137 host_idx=6 cid=5
+client6 ansible_host=18.188.84.137 host_idx=7 cid=6
+client7 ansible_host=18.188.84.137 host_idx=8 cid=7
+client8 ansible_host=3.23.130.236 host_idx=9 cid=8
+client9 ansible_host=3.23.130.236 host_idx=10 cid=9
+client10 ansible_host=3.23.130.236 host_idx=11 cid=10
+client11 ansible_host=3.23.130.236 host_idx=12 cid=11
+client12 ansible_host=3.23.130.236 host_idx=13 cid=12
+client13 ansible_host=3.23.130.236 host_idx=14 cid=13
+client14 ansible_host=3.23.130.236 host_idx=15 cid=14
+client15 ansible_host=3.23.130.236 host_idx=16 cid=15

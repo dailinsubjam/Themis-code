@@ -38,7 +38,7 @@ To use Terraform, you need
 
 ## Before Running the experiments
 
-- You need 
+- You need running following commands in your terminal
 
         > sudo chmod 600 path/to/your/id_rsa 
         > eval `ssh-agent -s`

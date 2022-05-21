@@ -40,9 +40,9 @@ To use Terraform, you need
 
 - You need 
 
-    sudo chmod 600 path/to/your/id_rsa 
-    eval `ssh-agent -s`
-    ssh-add path/to/your/id_rsa
+        sudo chmod 600 path/to/your/id_rsa 
+        eval `ssh-agent -s`
+        ssh-add path/to/your/id_rsa
 
 - Now move to ``scripts/deploy`` of coresponding folder.
 - Generate ``node.ini`` and ``hotstuff.gen.*.conf`` by running ``./gen_all.sh``.

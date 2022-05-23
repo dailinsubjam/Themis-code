@@ -1,16 +1,14 @@
 # Themis-code
- Source Code for Themis
+ Source Code for hotstuff with Themis
 
 # How do I Reproduce Your Key Result in the Paper?
 
 ## Local Environment
 We assume you have the latest [Terraform](https://www.terraform.io/downloads) and [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) installed on your work computer (a work computer is your laptop/home computer). 
 
-[//]: <> (change the terraform link to an installation one. Tell the user what to run on the work computer.)
+[//]: <> (Remove some redundant files.)
 
-we had the folder ``libhotstuff`` for data of original LibHotstuff. The code is the same as [libhotstuff](https://github.com/hot-stuff/libhotstuff). Another folder ``original`` is the one integrated Themis.
-
-[//]: <> (change the folder name...)
+we had the folder ``libhotstuff`` for data of original LibHotstuff. The code is the same as [libhotstuff](https://github.com/hot-stuff/libhotstuff). Another folder ``Aequitas-hotstuff/libhotstuff`` is the one integrated Themis.
 
 On your work computer, you have cloned the latest Themis-code repo. Finally, you have already built the repo so binaries hotstuff-keygen and hotstuff-tls-keygen in the two version of libhotstuff are available in their root directory. (See the instructions [here](https://github.com/hot-stuff/libhotstuff) )
 
@@ -32,9 +30,9 @@ To use Terraform, you need
 
 1. Enter the correspondidng folder you want to (``one-region-ohio`` or ``geo-distributed``), open ``resources.tf``, assign ``access_key`` and ``secret_key`` to your ``access key ID`` and ``secret access key`` from your IAM credentials.
 2. Change the ``region`` to the datacenter's name.
-3. In the block ``resource``, change the ``count`` to the number of servers you need, which we recommend ``#replicas + 2``, here ``2`` is for ``client``, and actually we will use one server as ``8`` clients, you can reduce the client number by removing some lines in ``clients.txt``. In ``gen_replicas.py``, change the number on ``line16`` to the number of clients you use.  Also assign ``ami`` to the coresponding VPC configuration for EC2, also ``private_key`` and ``public_key`` to yours that used to log in to the EC2 instance.
+3. In the block ``resource``, change the ``count`` to the number of servers you need, which equals to ``#replicas + 2``, here ``2`` is for ``client``, and actually we will use one server as ``8`` clients, you can reduce the client number by removing some lines in ``clients.txt``. Also assign ``ami`` to the coresponding VPC configuration for EC2, also ``private_key`` and ``public_key`` to yours that used to log in to the EC2 instance.
 4. Run ``./terra_to_txt.sh``.
-5. Paste the generated ``replicas.txt`` and ``clients.txt`` to ``original/scripts/deploy`` or ``libhotstuff/scripts/deploy``, depending on which one you want to test.
+5. Paste the generated ``replicas.txt`` and ``clients.txt`` to ``Aequitas-hotstuff/libhotstuff/scripts/deploy`` or ``libhotstuff/scripts/deploy``, depending on which one you want to test.
 
 ## Before Running the experiments
 
@@ -69,7 +67,7 @@ Where the first line is the throughput, the second line is the mean end-to-end l
 
 - Change the ``block-size`` in ``hotstuff.gen.conf``.
 - Change the ``#define max_num_all_txn`` to ``block-size + 5`` in ``consensus.h`` and ``hotstuff.cpp``.
-[//]: <> (refine the words)
+[//]: <> (refine the words. check once again?)
 - Then follow [the third step in the guide of libhotstuff](https://github.com/hot-stuff/libhotstuff/tree/master/scripts/deploy#step-3---run-the-experiment) to reproduce the results.
 
 In the five geo-distributed datacenters' setting, when I set the block-size to 400, client number to 12, replica number to 100. I got the following results:

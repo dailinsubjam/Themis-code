@@ -7,6 +7,7 @@ Terraform/one-region-ohio/terraform.tfstate
 Terraform/one-region-ohio/terraform.tfstate.backup
 Terraform/.terraform.lock.hcl
 .DS_Store
+**/.DS_Store
 id_rsa.pub
 id_rsa
 sishan-terraform-account_accessKeys.csv

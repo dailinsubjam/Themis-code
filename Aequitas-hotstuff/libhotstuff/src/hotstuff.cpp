@@ -26,7 +26,7 @@
 #include "hotstuff/client.h"
 #include "hotstuff/liveness.h"
 #include "hotstuff/aequitas.h"
-#define max_num_all_txn 55 //5005
+#define max_num_all_txn 405 //5005
 
 using salticidae::static_pointer_cast;
 

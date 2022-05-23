@@ -67,8 +67,9 @@ Where the first line is the throughput, the second line is the mean end-to-end l
 
 - Change the ``block-size`` in ``hotstuff.gen.conf``.
 - Change the ``#define max_num_all_txn`` to ``block-size + 5`` in ``consensus.h`` and ``hotstuff.cpp``.
-[//]: <> (refine the words. check once again?)
 - Then follow [the third step in the guide of libhotstuff](https://github.com/hot-stuff/libhotstuff/tree/master/scripts/deploy#step-3---run-the-experiment) to reproduce the results.
+
+[//]: <> (refine the words. check once again?)
 
 In the five geo-distributed datacenters' setting, when I set the block-size to 400, client number to 12, replica number to 100. I got the following results:
 

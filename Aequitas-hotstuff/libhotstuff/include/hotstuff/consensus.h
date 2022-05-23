@@ -28,7 +28,7 @@
 #include "hotstuff/crypto.h"
 #include "hotstuff/aequitas.h"
 
-#define max_num_all_txn 55 //5005
+#define max_num_all_txn 405 //5005
 
 namespace hotstuff {
 

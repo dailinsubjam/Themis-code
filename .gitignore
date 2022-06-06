@@ -11,3 +11,4 @@ Terraform/.terraform.lock.hcl
 id_rsa.pub
 id_rsa
 sishan-terraform-account_accessKeys.csv
+**/.terraform

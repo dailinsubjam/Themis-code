@@ -1,40 +1,40 @@
 #ohio
 provider "aws" {
   region = "us-east-2"
-  access_key = "AKIAXKG2MU6RLD6J5PRP"
-  secret_key = "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"
+  access_key = #to_be_filled
+  secret_key = #to_be_filled
 }
 
 #seoul
 provider "aws" {
 	alias = "apnortheast2"
 	region = "ap-northeast-2"
-  	access_key = "AKIAXKG2MU6RLD6J5PRP"
-  	secret_key = "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"
+  	access_key = #to_be_filled
+  	secret_key = #to_be_filled
 }
 
 #tokyo
 provider "aws" {
 	alias = "apnortheast1"
 	region = "ap-northeast-1"
-  	access_key = "AKIAXKG2MU6RLD6J5PRP"
-  	secret_key = "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"
+  	access_key = #to_be_filled
+  	secret_key = #to_be_filled
 }
 
 #frankfurt
 provider "aws" {
 	alias = "eucentral1"
 	region = "eu-central-1"
-  	access_key = "AKIAXKG2MU6RLD6J5PRP"
-  	secret_key = "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"
+  	access_key = #to_be_filled
+  	secret_key = #to_be_filled
 }
 
 #california
 provider "aws" {
 	alias = "uswest1"
 	region = "us-west-1"
-  	access_key = "AKIAXKG2MU6RLD6J5PRP"
-  	secret_key = "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"
+  	access_key = #to_be_filled
+  	secret_key = #to_be_filled
 }
 
 #ohio
@@ -49,7 +49,7 @@ resource "aws_instance" "server_useast2" {
 	tags= {
 		Name	= "Sishan-Terraform-${count.index}"
 	}
-	vpc_security_group_ids = ["sg-0f10e07f1b11c2832"]
+	vpc_security_group_ids = #to_be_filled
 	associate_public_ip_address = true
 	key_name = "id_rsa"
 	connection  {
@@ -72,7 +72,7 @@ resource "aws_instance" "server_apnortheast2" {
 
 	count = 0
 
-	ami = "ami-0ba5cd124d7a79612"
+	ami = #to_be_filled
 	instance_type = "c5.4xlarge"
 	
 //	instance_state = "terminated"
@@ -80,7 +80,7 @@ resource "aws_instance" "server_apnortheast2" {
 	tags= {
 		Name	= "Sishan-Terraform-${count.index}"
 	}
-	vpc_security_group_ids = ["sg-008061d7caa584946"]
+	vpc_security_group_ids = #to_be_filled
 	associate_public_ip_address = true
 	key_name = "id_rsa"
 	connection  {
@@ -104,7 +104,7 @@ resource "aws_instance" "server_apnortheast1" {
 
 	count = 0
 
-	ami = "ami-0ef85cf6e604e5650"
+	ami = #to_be_filled
 	instance_type = "c5.4xlarge"
 	
 //	instance_state = "terminated"
@@ -112,7 +112,7 @@ resource "aws_instance" "server_apnortheast1" {
 	tags= {
 		Name	= "Sishan-Terraform-${count.index}"
 	}
-	vpc_security_group_ids = ["sg-0f2227c41e5ea4c5f"]
+	vpc_security_group_ids = #to_be_filled
 	associate_public_ip_address = true
 	key_name = "id_rsa"
 	connection  {
@@ -137,7 +137,7 @@ resource "aws_instance" "server_eucentral1" {
 
 	count = 0
 
-	ami = "ami-0e0102e3ff768559b"
+	ami = #to_be_filled
 	instance_type = "c5.4xlarge"
 	
 //	instance_state = "terminated"
@@ -145,7 +145,7 @@ resource "aws_instance" "server_eucentral1" {
 	tags= {
 		Name	= "Sishan-Terraform-${count.index}"
 	}
-	vpc_security_group_ids = ["sg-011896a9bf516f712"]
+	vpc_security_group_ids = #to_be_filled
 	associate_public_ip_address = true
 	key_name = "id_rsa"
 	connection  {
@@ -170,7 +170,7 @@ resource "aws_instance" "server_uswest1" {
 
 	count = 0
 
-	ami = "ami-0121ef35996ede438"
+	ami = #to_be_filled
 	instance_type = "c5.4xlarge"
 	
 //	instance_state = "terminated"
@@ -178,7 +178,7 @@ resource "aws_instance" "server_uswest1" {
 	tags= {
 		Name	= "Sishan-Terraform-${count.index}"
 	}
-	vpc_security_group_ids = ["sg-0b8e39f0c0944887c"]
+	vpc_security_group_ids = #to_be_filled
 	associate_public_ip_address = true
 	key_name = "id_rsa"
 	connection  {

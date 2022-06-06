@@ -79,6 +79,6 @@ In the five geo-distributed datacenters' setting, when I set the block-size to 4
 
 [//]: <> (change this to default setting?)
 
-## Stop all the launched server
+## Stop all the launched servers
 
 There is no simple way to stop the server by using Terraform. Therefore we use the UI. In the AWS console, select the servers with the filter "running", then change the instance status to "suspended".

@@ -25,7 +25,7 @@ In the folder Terraform, we have two subfolders. One is for one datacenter (e.g.
 To use Terraform, you need
 - AWS account;
 - AWS Identify and Access Management (IAM) credentials and programmatic access. The IAM credentials that you need for EC2 can be found [here](https://aws.amazon.com/cn/blogs/security/granting-permission-to-launch-ec2-instances-with-iam-roles-passrole-permission/);
-- setting up AWS credentials locally with aws configure in the AWS Command Line Interface (CLI). You can find further details [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html);
+- setting up AWS credentials locally with aws configure in the AWS Command Line Interface (CLI). You can find further details [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html), remember to add permission AdministratorAccess;
 - a VPC configured for EC2. You can find a CloudFormation template to do that [here](https://docs.aws.amazon.com/eks/latest/userguide/creating-a-vpc.html); 
 
 1. Enter the correspondidng folder you want to (``one-region-ohio`` or ``geo-distributed``), open ``resources.tf``, assign ``access_key`` and ``secret_key`` to your ``access key ID`` and ``secret access key`` from your IAM credentials.

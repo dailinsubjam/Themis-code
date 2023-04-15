@@ -31,7 +31,7 @@ To use Terraform, you need
 1. Enter the correspondidng folder you want to (``one-region-ohio`` or ``geo-distributed``), open ``resources.tf``, assign ``access_key`` and ``secret_key`` to your ``access key ID`` and ``secret access key`` from your IAM credentials.
 2. Change the ``region`` to the datacenter's name.
 3. In the block ``resource``, change the ``count`` to the number of servers you need, which equals to ``#replicas + 2``, here ``2`` is for ``client``, and actually we will use one server as ``8`` clients, you can reduce the client number by removing some lines in ``clients.txt``. Also assign ``ami`` to the coresponding VPC configuration for EC2, also ``private_key`` and ``public_key`` to yours that used to log in to the EC2 instance.
-4. Run ``./terra_to_txt.sh``.
+4. Run ``terraform init``, then ``./terra_to_txt.sh``.
 5. Paste the generated ``replicas.txt`` and ``clients.txt`` to ``Aequitas-hotstuff/libhotstuff/scripts/deploy`` or ``libhotstuff/scripts/deploy``, depending on which one you want to test.
 
 ## Before Running the experiments
